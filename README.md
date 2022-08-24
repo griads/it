@@ -1,4 +1,6 @@
-### Hi there 👋
+The iToTTo dataset is released under the [Creative Commons Share-Alike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) license.
+
+The original ToTTo dataset can be found here: https://github.com/google-research-datasets/ToTTo
 
 <!--
 **i-totto/i-totto** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
