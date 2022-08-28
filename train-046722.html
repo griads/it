@@ -1,0 +1,32 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>HTML5 audio</h2><br> <b>Section Title</b>: Supported audio coding formats <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Format </th><th colspan=1 rowspan=1 > Container </th><th colspan=1 rowspan=1 > MIME type </th><th colspan=1 rowspan=1 > Chrome </th><th colspan=1 rowspan=1 > Internet Explorer </th><th colspan=1 rowspan=1 > Edge </th><th colspan=1 rowspan=1 > Firefox </th><th colspan=1 rowspan=1 > Opera </th><th colspan=1 rowspan=1 > Safari </th></tr>
+<tr> <th colspan=1 rowspan=1 > PCM </th><td colspan=1 rowspan=1 > WAV </td><td colspan=1 rowspan=1 > audio/wav </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > Yes, in v3.5 </td><td colspan=1 rowspan=1 > Yes, in v11.00 </td><td colspan=1 rowspan=1 > Yes, in v3.1 </td></tr>
+<tr> <th colspan=1 rowspan=1 > MP3 </th><td colspan=1 rowspan=1 > MP3 </td><td colspan=1 rowspan=1 > audio/mpeg </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > Yes, in IE9 </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > From OS </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > Yes, in v3.1 </td></tr>
+<tr> <th class="highlighted"  colspan=1 rowspan=2 > AAC </th><td class="highlighted"  colspan=1 rowspan=1 > MP4 </td><td colspan=1 rowspan=1 > audio/mp4 </td><td class="highlighted"  colspan=1 rowspan=1 > Yes </td><td class="highlighted"  colspan=1 rowspan=1 > Yes, in IE9 </td><td colspan=1 rowspan=1 > Yes </td><td class="highlighted"  colspan=1 rowspan=1 > From OS </td><td class="highlighted"  colspan=1 rowspan=1 > Yes </td><td class="highlighted"  colspan=1 rowspan=1 > Yes </td></tr>
+<tr> <td colspan=1 rowspan=1 > ADTS </td><td colspan=1 rowspan=1 > audio/aac audio/aacp </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > From OS, in v45.0 </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > Yes </td></tr>
+<tr> <th colspan=1 rowspan=2 > Vorbis </th><td colspan=1 rowspan=1 > Ogg </td><td colspan=1 rowspan=1 > audio/ogg </td><td colspan=1 rowspan=1 > Yes, in v9 </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > In v17, with Web Media Extensions </td><td colspan=1 rowspan=1 > Yes, in v3.5 </td><td colspan=1 rowspan=1 > Yes, in v10.50 </td><td colspan=1 rowspan=1 > With Xiph QuickTime Components (macOS 10.11 and earlier) </td></tr>
+<tr> <td colspan=1 rowspan=1 > WebM </td><td colspan=1 rowspan=1 > audio/webm </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > In v17, with Web Media Extensions </td><td colspan=1 rowspan=1 > Yes, in v4.0 </td><td colspan=1 rowspan=1 > Yes, in v10.60 </td><td colspan=1 rowspan=1 > No </td></tr>
+<tr> <th colspan=1 rowspan=2 > Opus </th><td colspan=1 rowspan=1 > Ogg </td><td colspan=1 rowspan=1 > audio/ogg </td><td colspan=1 rowspan=1 > Yes, in v25 (in v31 for Windows) </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > In v17, with Web Media Extensions </td><td colspan=1 rowspan=1 > Yes, in v15.0 </td><td colspan=1 rowspan=1 > Yes, in v14 </td><td colspan=1 rowspan=1 > No </td></tr>
+<tr> <td colspan=1 rowspan=1 > WebM </td><td colspan=1 rowspan=1 > audio/webm </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > In v14, only via MSE In v17, supports tag with Web Media Extensions </td><td colspan=1 rowspan=1 > Yes, in v28.0 </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > No </td></tr>
+<tr> <th colspan=1 rowspan=2 > FLAC </th><td colspan=1 rowspan=1 > FLAC </td><td colspan=1 rowspan=1 > audio/flac </td><td colspan=1 rowspan=1 > Yes, in v56 </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > Yes, in v16 </td><td colspan=1 rowspan=1 > Yes, in v51 </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > Yes, in v11 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Ogg </td><td colspan=1 rowspan=1 > audio/ogg </td><td colspan=1 rowspan=1 > Yes, in v56 </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > In v17, with Web Media Extensions </td><td colspan=1 rowspan=1 > Yes, in v51 </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > No </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. The AAC files with finite length are wrapped in a container mp4, which is supported in Internet Explorer, Safari, and Chrome, and supported by the OS in Firefox and Opera. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

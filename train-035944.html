@@ -1,0 +1,64 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Universal asynchronous receiver-transmitter</h2><br> <b>Section Title</b>: UART models <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Model </th><th colspan=1 rowspan=1 > Description </th></tr>
+<tr> <td colspan=1 rowspan=1 > WD1402A </td><td colspan=1 rowspan=1 > The first single-chip UART on general sale. Introduced about 1971. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Exar XR21V1410 </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > SIG60 </td><td colspan=1 rowspan=1 > DC-BUS UART communication over DC power lines up to 115.2 kbit/s, originally by Yamar Electronics </td></tr>
+<tr> <td colspan=1 rowspan=1 > Intersil 6402 </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > CDP 1854 (RCA, now Intersil) </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Zilog Z8440 </td><td colspan=1 rowspan=1 > Universal synchronous and asynchronous receiver-transmitter. 2000 kbit/s. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Z8530/Z85C30 </td><td colspan=1 rowspan=1 > This universal synchronous and asynchronous receiver-transmitter has a 3-byte receive buffer and a 1-byte transmit buffer. It has hardware to accelerate the processing of HDLC and SDLC. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 8250 </td><td colspan=1 rowspan=6 > Obsolete with 1-byte buffers. These UARTs' maximum standard serial port speed is 9600 bits per second if the operating system has a 1 millisecond interrupt latency. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 8251 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Motorola 6850 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 6551 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Rockwell 65C52 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16450 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 82510 </td><td colspan=1 rowspan=1 > This UART allows asynchronous operation up to 288 kbit/s, with two independent four-byte FIFOs. It was produced by Intel at least from 1993 to 1996, and Innovastic Semiconductor has a 2011 Data Sheet for IA82510. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16550 </td><td colspan=1 rowspan=1 > This UART's FIFO is broken, so it cannot safely run any faster than the 16450 UART. The 16550A and later versions fix this bug. </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > 16550A </td><td class="highlighted"  colspan=1 rowspan=2 > This UART has 16-byte FIFO buffers. Its receive interrupt trigger levels can be set to 1, 4, 8, or 14 characters. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16C552 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16650 </td><td colspan=1 rowspan=1 > This UART was introduced by Startech Semiconductor which is now owned by Exar Corporation and is not related to Startech.com. Early versions have a broken FIFO buffer and therefore cannot safely run any faster than the 16450 UART. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16750 </td><td colspan=1 rowspan=1 > 64-byte buffers. This UART can handle a maximum standard serial port speed of 460.8 kbit/s if the maximum interrupt latency is 1 millisecond. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16850 </td><td colspan=1 rowspan=2 > 128-byte buffers. This UART can handle a maximum standard serial port speed of 921.6 kbit/s if the maximum interrupt latency is 1 millisecond. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16C850 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16950 </td><td colspan=1 rowspan=2 > 128-byte buffers. This UART can handle a maximum standard serial port speed of 921.6 kbit/s if the maximum interrupt latency is 1 millisecond. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16C950 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16954 </td><td colspan=1 rowspan=2 > Quad-port version of the 16950/16C950. 128-byte buffers. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16C954 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16C1550/16C1551 </td><td colspan=1 rowspan=1 > UART with 16-byte FIFO buffers. Up to 1.5 Mbit/s. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16C2450 </td><td colspan=1 rowspan=1 > Dual UART with 1-byte FIFO buffers. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16C2550 </td><td colspan=1 rowspan=1 > Dual UART with 16-byte FIFO buffers. Pin-to-pin and functional compatible to 16C2450. Software compatible with INS8250 and NS16C550. </td></tr>
+<tr> <td colspan=1 rowspan=1 > SCC2691 </td><td colspan=1 rowspan=2 > Currently produced by NXP, the 2691 is a single channel UART that also includes a programmable counter/timer. The 2691 has a single-byte transmitter holding register and a 4-byte receive FIFO. </td></tr>
+<tr> <td colspan=1 rowspan=1 > SCC28L91 </td></tr>
+<tr> <td colspan=1 rowspan=1 > SCC2692 </td><td colspan=1 rowspan=3 > Currently produced by NXP, these devices are dual UARTs (DUART), consisting of two communications channels, associated control registers and one counter/timer. </td></tr>
+<tr> <td colspan=1 rowspan=1 > SC26C92 </td></tr>
+<tr> <td colspan=1 rowspan=1 > SC28L92 </td></tr>
+<tr> <td colspan=1 rowspan=1 > SCC28C94 </td><td colspan=1 rowspan=1 > Currently produced by NXP, the 28C94 quadruple UART (QUART) is functionally similar to a pair of SCC26C92 DUARTs mounted in a common package, with the addition of an arbitrated interrupt system for efficient processing during periods of intense channel activity. </td></tr>
+<tr> <td colspan=1 rowspan=1 > SCC2698B </td><td colspan=1 rowspan=1 > Currently produced by NXP, the 2698 octal UART (OCTART) is essentially four SCC2692 DUARTs in a single package. Specifications are the same as the SCC2692 (not the SCC26C92). </td></tr>
+<tr> <td colspan=1 rowspan=1 > SCC28L198 </td><td colspan=1 rowspan=1 > Currently produced by NXP, the 28L198 OCTART is essentially an upscaled enhancement of the SCC28C94 QUART described above, with eight independent communications channels, as well as an arbitrated interrupt system for efficient processing during periods of intense channel activity. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Z85230 </td><td colspan=1 rowspan=1 > Synchronous/Asynchronous modes, 2 ports. Provides signals needed by a third party DMA controller needed to perform DMA transfers. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Hayes ESP </td><td colspan=1 rowspan=1 > 1 KB buffers, 921.6 kbit/s, 8-ports. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Exar XR17V352, XR17V354 and XR17V358 </td><td colspan=1 rowspan=1 > Dual, Quad and Octal PCI Express UARTs with 16550 compatible register Set, 256-byte TX and RX FIFOs, Programmable TX and RX Trigger Levels, TX/RX FIFO Level Counters, Fractional baud rate generator, Automatic RTS/CTS or DTR/DSR hardware flow control with programmable hysteresis, Automatic Xon/Xoff software flow control, RS-485 half duplex direction control output with programmable turn-around delay, Multi-drop with Auto Address Detection, Infrared (IrDA 1.1) data encoder/decoder. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Exar XR17D152, XR17D154 and XR17D158 </td><td colspan=1 rowspan=1 > Dual, Quad and Octal PCI bus UARTs with 16C550 Compatible 5G Register Set, 64-byte Transmit and Receive FIFOs, Transmit and Receive FIFO Level Counters, Programmable TX and RX FIFO Trigger Level, Automatic RTS/CTS or DTR/DSR Flow Control, Automatic Xon/Xoff Software Flow Control, RS485 HDX Control Output with Selectable Turn-around Delay, Infrared (IrDA 1.0) Data Encoder/Decoder, Programmable Data Rate with Prescaler, Up to 6.25 Mbit/s Serial Data Rate. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Exar XR17C152, XR17C154 and XR17C158 </td><td colspan=1 rowspan=1 > Dual, Quad and Octal 5 V PCI bus UARTs with 16C550 Compatible Registers, 64-byte Transmit and Receive FIFOs, Transmit and Receive FIFO Level Counters, Automatic RTS/CTS or DTR/DSR Flow Control, Automatic Xon/Xoff Software Flow Control, RS485 Half-duplex Control with Selectable Delay, Infrared (IrDA 1.0) Data Encoder/Decoder, Programmable Data Rate with Prescaler, Up to 6.25 Mbit/s Serial Data Rate. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Exar XR17V252, XR17V254 and XR17V258 </td><td colspan=1 rowspan=1 > Dual, Quad and Octal 66 MHz PCI bus UARTs with Power Management Support, 16C550 compatible register set, 64-byte TX and RX FIFOs with level counters and programmable trigger levels, Fractional baud rate generator, Automatic RTS/CTS or DTR/DSR hardware flow control with programmable hysteresis, Automatic Xon/Xoff software flow control, RS-485 half duplex direction control output with selectable turn-around delay, Infrared (IrDA 1.0) data encoder/decoder, Programmable data rate with prescaler. </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. The 16550 has a 16-byte FIFO. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

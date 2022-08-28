@@ -1,0 +1,38 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>IPv4</h2><br> <b>Section Title</b>: Special-use addresses <br><b>Table Section Text</b>: The Internet Engineering Task Force (IETF) and the Internet Assigned Numbers Authority (IANA) have restricted from general use various reserved IP addresses for special purposes. <br> <table>
+<tr> <th colspan=1 rowspan=1 > Address block </th><th colspan=1 rowspan=1 > Address range </th><th colspan=1 rowspan=1 > Number of addresses </th><th colspan=1 rowspan=1 > Scope </th><th colspan=1 rowspan=1 > Description </th></tr>
+<tr> <td colspan=1 rowspan=1 > 0.0.0.0/8 </td><td colspan=1 rowspan=1 > 0.0.0.0–0.255.255.255 </td><td colspan=1 rowspan=1 > 16777216 </td><td colspan=1 rowspan=1 > Software </td><td colspan=1 rowspan=1 > Current network (only valid as source address). </td></tr>
+<tr> <td colspan=1 rowspan=1 > 10.0.0.0/8 </td><td colspan=1 rowspan=1 > 10.0.0.0–10.255.255.255 </td><td colspan=1 rowspan=1 > 16777216 </td><td colspan=1 rowspan=1 > Private network </td><td colspan=1 rowspan=1 > Used for local communications within a private network. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 100.64.0.0/10 </td><td colspan=1 rowspan=1 > 100.64.0.0–100.127.255.255 </td><td colspan=1 rowspan=1 > 4194304 </td><td colspan=1 rowspan=1 > Private network </td><td colspan=1 rowspan=1 > Shared address space for communications between a service provider and its subscribers when using a carrier-grade NAT. </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > 127.0.0.0/8 </td><td colspan=1 rowspan=1 > 127.0.0.0–127.255.255.255 </td><td colspan=1 rowspan=1 > 16777216 </td><td colspan=1 rowspan=1 > Host </td><td class="highlighted"  colspan=1 rowspan=1 > Used for loopback addresses to the local host. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 169.254.0.0/16 </td><td colspan=1 rowspan=1 > 169.254.0.0–169.254.255.255 </td><td colspan=1 rowspan=1 > 65536 </td><td colspan=1 rowspan=1 > Subnet </td><td colspan=1 rowspan=1 > Used for link-local addresses between two hosts on a single link when no IP address is otherwise specified, such as would have normally been retrieved from a DHCP server. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 172.16.0.0/12 </td><td colspan=1 rowspan=1 > 172.16.0.0–172.31.255.255 </td><td colspan=1 rowspan=1 > 1048576 </td><td colspan=1 rowspan=1 > Private network </td><td colspan=1 rowspan=1 > Used for local communications within a private network. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 192.0.0.0/24 </td><td colspan=1 rowspan=1 > 192.0.0.0–192.0.0.255 </td><td colspan=1 rowspan=1 > 256 </td><td colspan=1 rowspan=1 > Private network </td><td colspan=1 rowspan=1 > IETF Protocol Assignments. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 192.0.2.0/24 </td><td colspan=1 rowspan=1 > 192.0.2.0–192.0.2.255 </td><td colspan=1 rowspan=1 > 256 </td><td colspan=1 rowspan=1 > Documentation </td><td colspan=1 rowspan=1 > Assigned as TEST-NET-1, documentation and examples. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 192.88.99.0/24 </td><td colspan=1 rowspan=1 > 192.88.99.0–192.88.99.255 </td><td colspan=1 rowspan=1 > 256 </td><td colspan=1 rowspan=1 > Internet </td><td colspan=1 rowspan=1 > Reserved. Formerly used for IPv6 to IPv4 relay (included IPv6 address block 2002::/16). </td></tr>
+<tr> <td colspan=1 rowspan=1 > 192.168.0.0/16 </td><td colspan=1 rowspan=1 > 192.168.0.0–192.168.255.255 </td><td colspan=1 rowspan=1 > 65536 </td><td colspan=1 rowspan=1 > Private network </td><td colspan=1 rowspan=1 > Used for local communications within a private network. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 198.18.0.0/15 </td><td colspan=1 rowspan=1 > 198.18.0.0–198.19.255.255 </td><td colspan=1 rowspan=1 > 131072 </td><td colspan=1 rowspan=1 > Private network </td><td colspan=1 rowspan=1 > Used for benchmark testing of inter-network communications between two separate subnets. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 198.51.100.0/24 </td><td colspan=1 rowspan=1 > 198.51.100.0–198.51.100.255 </td><td colspan=1 rowspan=1 > 256 </td><td colspan=1 rowspan=1 > Documentation </td><td colspan=1 rowspan=1 > Assigned as TEST-NET-2, documentation and examples. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 203.0.113.0/24 </td><td colspan=1 rowspan=1 > 203.0.113.0–203.0.113.255 </td><td colspan=1 rowspan=1 > 256 </td><td colspan=1 rowspan=1 > Documentation </td><td colspan=1 rowspan=1 > Assigned as TEST-NET-3, documentation and examples. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 224.0.0.0/4 </td><td colspan=1 rowspan=1 > 224.0.0.0–239.255.255.255 </td><td colspan=1 rowspan=1 > 268435456 </td><td colspan=1 rowspan=1 > Internet </td><td colspan=1 rowspan=1 > In use for IP multicast. (Former Class D network). </td></tr>
+<tr> <td colspan=1 rowspan=1 > 240.0.0.0/4 </td><td colspan=1 rowspan=1 > 240.0.0.0–255.255.255.254 </td><td colspan=1 rowspan=1 > 268435456 </td><td colspan=1 rowspan=1 > Internet </td><td colspan=1 rowspan=1 > Reserved for future use. (Former Class E network). </td></tr>
+<tr> <td colspan=1 rowspan=1 > 255.255.255.255/32 </td><td colspan=1 rowspan=1 > 255.255.255.255 </td><td colspan=1 rowspan=1 > 1 </td><td colspan=1 rowspan=1 > Subnet </td><td colspan=1 rowspan=1 > Reserved for the "limited broadcast" destination address. </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. The network 127.0.0.0/8 is used for loopbacks. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

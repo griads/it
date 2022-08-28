@@ -1,0 +1,31 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Spectre (security vulnerability)</h2><br> <b>Section Title</b>: Mitigation <br><b>Table Section Text</b>: Since Spectre represents a whole class of attacks, most likely, there cannot be a single patch for it. While work is already being done to address special cases of the vulnerability, the original website devoted to Spectre and Meltdown states: "As [Spectre] is not easy to fix, it will haunt us for a long time." At the same time, according to Dell: "No 'real-world' exploits of these vulnerabilities [i.e., Meltdown and Spectre] have been reported to date [February 7, 2018], though researchers have produced proof-of-concepts." Several procedures to help protect home computers and related devices from the vulnerability have been published. <br> <table>
+<tr> <th colspan=1 rowspan=1 > Vulnerability </th><th colspan=1 rowspan=1 > CVE </th><th colspan=1 rowspan=1 > Exploit name </th><th colspan=1 rowspan=1 > Public vulnerability name </th><th colspan=1 rowspan=1 > Windows changes </th><th colspan=1 rowspan=1 > Firmware changes </th><th colspan=1 rowspan=1 > Source </th></tr>
+<tr> <td colspan=1 rowspan=1 > Spectre </td><td colspan=1 rowspan=1 > 2017-5753 </td><td colspan=1 rowspan=1 > Variant 1 </td><td colspan=1 rowspan=1 > Bounds Check Bypass (BCB) </td><td colspan=1 rowspan=1 > Recompiling with a new compiler Hardened browser to prevent exploit from JavaScript </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spectre </td><td colspan=1 rowspan=1 > 2017-5715 </td><td colspan=1 rowspan=1 > Variant 2 </td><td colspan=1 rowspan=1 > Branch Target Injection (BTI) </td><td colspan=1 rowspan=1 > New CPU instructions eliminating branch speculation </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Meltdown </td><td colspan=1 rowspan=1 > 2017-5754 </td><td colspan=1 rowspan=1 > Variant 3 </td><td colspan=1 rowspan=1 > Rogue Data Cache Load (RDCL) </td><td colspan=1 rowspan=1 > Isolate kernel and user mode page tables </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spectre-NG </td><td colspan=1 rowspan=1 > 2018-3640 </td><td colspan=1 rowspan=1 > Variant 3a </td><td colspan=1 rowspan=1 > Rogue System Register Read (RSRR) </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spectre-NG </td><td colspan=1 rowspan=1 > 2018-3639 </td><td colspan=1 rowspan=1 > Variant 4 </td><td colspan=1 rowspan=1 > Speculative Store Bypass (SSB) </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spectre-NG </td><td colspan=1 rowspan=1 > 2018-3665 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Lazy FP State Restore </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > Spectre-NG </td><td class="highlighted"  colspan=1 rowspan=1 > 2018-3693 </td><td class="highlighted"  colspan=1 rowspan=1 > Variant 1.1 </td><td class="highlighted"  colspan=1 rowspan=1 > Bounds Check Bypass Store (BCBS) </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spectre </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Variant 1.2 </td><td colspan=1 rowspan=1 > Read-only protection bypass (RPB) </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > SpectreRSB </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Return Mispredict </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. Spectre-NG class vulnerability called "Bounds Check Bypass Store" (BCBS), "Spectre 1.1" (CVE-2018-3693). <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

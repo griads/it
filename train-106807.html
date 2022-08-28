@@ -1,0 +1,38 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Antikythera mechanism</h2><br> <b>Section Title</b>: Gearing <br><b>Table Section Text</b>: The mechanism is remarkable for the level of miniaturisation and the complexity of its parts, which is comparable to that of fourteenth-century astronomical clocks. <br> <table>
+<tr> <th colspan=1 rowspan=1 > Gear name </th><th colspan=1 rowspan=1 > Function of the gear/pointer </th><th colspan=1 rowspan=1 > Expected simulated interval of a full circular revolution </th><th colspan=1 rowspan=1 > Mechanism formula </th><th colspan=1 rowspan=1 > Computed interval </th><th colspan=1 rowspan=1 > Gear direction </th></tr>
+<tr> <th colspan=1 rowspan=1 > x </th><td colspan=1 rowspan=1 > Year gear </td><td colspan=1 rowspan=1 > 1 tropical year </td><td colspan=1 rowspan=1 > 1 (by definition) </td><td colspan=1 rowspan=1 > 1 year (presumed) </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > b </th><td colspan=1 rowspan=1 > the moon's orbit </td><td colspan=1 rowspan=1 > 1 sidereal month (27.321661 days) </td><td colspan=1 rowspan=1 > Time(b) = Time(x) * (c1 / b2) * (d1 / c2) * (e2 / d2) * (k1 / e5) * (e6 / k2) * (b3 / e1) </td><td colspan=1 rowspan=1 > 27.321 days </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > r </th><td colspan=1 rowspan=1 > lunar phase display </td><td colspan=1 rowspan=1 > 1 synodic month (29.530589 days) </td><td colspan=1 rowspan=1 > Time(r) = 1 / (1 / Time(b2 [mean sun] or sun3 [true sun])) – (1 / Time(b))) </td><td colspan=1 rowspan=1 > 29.530 days </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <th colspan=1 rowspan=1 > n* </th><td colspan=1 rowspan=1 > Metonic pointer </td><td colspan=1 rowspan=1 > Metonic cycle () / 5 spirals around the dial = 1387.94 days </td><td colspan=1 rowspan=1 > Time(n) = Time(x) * (l1 / b2) * (m1 /l2) * (n1 / m2) </td><td colspan=1 rowspan=1 > 1387.9 days </td><td colspan=1 rowspan=1 > ccw </td></tr>
+<tr> <th colspan=1 rowspan=1 > o* </th><td colspan=1 rowspan=1 > Games dial pointer </td><td colspan=1 rowspan=1 > 4 years </td><td colspan=1 rowspan=1 > Time(o) = Time(n) * (o1 / n2) </td><td colspan=1 rowspan=1 > 4.00 years </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > q* </th><td colspan=1 rowspan=1 > Callippic pointer </td><td colspan=1 rowspan=1 > 27758.8 days </td><td colspan=1 rowspan=1 > Time(q) = Time(n) * (p1 / n3) * (q1 /p2) </td><td class="highlighted"  colspan=1 rowspan=1 > 27758 days </td><td colspan=1 rowspan=1 > ccw </td></tr>
+<tr> <th colspan=1 rowspan=1 > e* </th><td colspan=1 rowspan=1 > lunar orbit precession </td><td colspan=1 rowspan=1 > 8.85 years </td><td colspan=1 rowspan=1 > Time(e) = Time(x) * (l1 / b2) * (m1 / l2) * (e3 / m3) </td><td colspan=1 rowspan=1 > 8.8826 years </td><td colspan=1 rowspan=1 > ccw </td></tr>
+<tr> <th colspan=1 rowspan=1 > g* </th><td colspan=1 rowspan=1 > Saros cycle </td><td colspan=1 rowspan=1 > Saros time / 4 turns = 1646.33 days </td><td colspan=1 rowspan=1 > Time(g) = Time(e) * (f1 / e4) * (g1 / f2) </td><td colspan=1 rowspan=1 > 1646.3 days </td><td colspan=1 rowspan=1 > ccw </td></tr>
+<tr> <th colspan=1 rowspan=1 > i* </th><td colspan=1 rowspan=1 > Exeligmos pointer </td><td colspan=1 rowspan=1 > 19755.8 days </td><td colspan=1 rowspan=1 > Time(i) = Time(g) * (h1 / g2) * (i1 / h2) </td><td colspan=1 rowspan=1 > 19756 days </td><td colspan=1 rowspan=1 > ccw </td></tr>
+<tr> <th colspan=6 rowspan=1 > The following are proposed gearing from the 2012 Freeth and Jones reconstruction: </th></tr>
+<tr> <th colspan=1 rowspan=1 > sun3* </th><td colspan=1 rowspan=1 > True sun pointer </td><td colspan=1 rowspan=1 > 1 mean year </td><td colspan=1 rowspan=1 > Time(sun3) = Time(x) * (sun3 / sun1) * (sun2 / sun3) </td><td colspan=1 rowspan=1 > 1 mean year </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > mer2* </th><td colspan=1 rowspan=1 > Mercury pointer </td><td colspan=1 rowspan=1 > 115.88 days (synodic period) </td><td colspan=1 rowspan=1 > Time(mer2) = Time(x) * (mer2 / mer1) </td><td colspan=1 rowspan=1 > 115.89 days </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > ven2* </th><td colspan=1 rowspan=1 > Venus pointer </td><td colspan=1 rowspan=1 > 583.93 days (synodic period) </td><td colspan=1 rowspan=1 > Time(ven2) = Time(x) * (ven1 / sun1) </td><td colspan=1 rowspan=1 > 584.39 days </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > mars4* </th><td colspan=1 rowspan=1 > Mars pointer </td><td colspan=1 rowspan=1 > 779.96 days (synodic period) </td><td colspan=1 rowspan=1 > Time(mars4) = Time(x) * (mars2 / mars1) * (mars4 / mars3) </td><td colspan=1 rowspan=1 > 779.84 days </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > jup4* </th><td colspan=1 rowspan=1 > Jupiter pointer </td><td colspan=1 rowspan=1 > 398.88 days (synodic period) </td><td colspan=1 rowspan=1 > Time(jup4) = Time(x) * (jup2 / jup1) * (jup4 / jup3) </td><td colspan=1 rowspan=1 > 398.88 days </td><td colspan=1 rowspan=1 > cw </td></tr>
+<tr> <th colspan=1 rowspan=1 > sat4* </th><td colspan=1 rowspan=1 > Saturn pointer </td><td colspan=1 rowspan=1 > 378.09 days (synodic period) </td><td colspan=1 rowspan=1 > Time(sat4) = Time(x) * (sat2 / sat1) * (sat4 / sat3) </td><td colspan=1 rowspan=1 > 378.06 days </td><td colspan=1 rowspan=1 > cw </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. Antikythera mechanism has a computed period of 27758 days. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

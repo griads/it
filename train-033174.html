@@ -1,0 +1,150 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>ISO 8583</h2><br> <b>Section Title</b>: ISO-defined data elements (ver 1987) <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Data field </th><th colspan=1 rowspan=1 > Type </th><th colspan=1 rowspan=1 > Usage </th></tr>
+<tr> <td colspan=1 rowspan=1 > 1 </td><td colspan=1 rowspan=1 > b 64 </td><td colspan=1 rowspan=1 > Second Bitmap </td></tr>
+<tr> <td colspan=1 rowspan=1 > 2 </td><td colspan=1 rowspan=1 > n..19 </td><td colspan=1 rowspan=1 > Primary account number (PAN) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 3 </td><td colspan=1 rowspan=1 > n 6 </td><td colspan=1 rowspan=1 > Processing code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 4 </td><td colspan=1 rowspan=1 > n 12 </td><td colspan=1 rowspan=1 > Amount, transaction </td></tr>
+<tr> <td colspan=1 rowspan=1 > 5 </td><td colspan=1 rowspan=1 > n 12 </td><td colspan=1 rowspan=1 > Amount, settlement </td></tr>
+<tr> <td colspan=1 rowspan=1 > 6 </td><td colspan=1 rowspan=1 > n 12 </td><td colspan=1 rowspan=1 > Amount, cardholder billing </td></tr>
+<tr> <td colspan=1 rowspan=1 > 7 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Transmission date & time </td></tr>
+<tr> <td colspan=1 rowspan=1 > 8 </td><td colspan=1 rowspan=1 > n 8 </td><td colspan=1 rowspan=1 > Amount, cardholder billing fee </td></tr>
+<tr> <td colspan=1 rowspan=1 > 9 </td><td colspan=1 rowspan=1 > n 8 </td><td colspan=1 rowspan=1 > Conversion rate, settlement </td></tr>
+<tr> <td colspan=1 rowspan=1 > 10 </td><td colspan=1 rowspan=1 > n 8 </td><td colspan=1 rowspan=1 > Conversion rate, cardholder billing </td></tr>
+<tr> <td colspan=1 rowspan=1 > 11 </td><td colspan=1 rowspan=1 > n 6 </td><td colspan=1 rowspan=1 > System trace audit number (STAN) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 12 </td><td colspan=1 rowspan=1 > n 6 </td><td colspan=1 rowspan=1 > Local transaction time (hhmmss) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 13 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Local transaction date (MMDD) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 14 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Expiration date </td></tr>
+<tr> <td colspan=1 rowspan=1 > 15 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Settlement date </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Currency conversion date </td></tr>
+<tr> <td colspan=1 rowspan=1 > 17 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Capture date </td></tr>
+<tr> <td colspan=1 rowspan=1 > 18 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Merchant type, or merchant category code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 19 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Acquiring institution (country code) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 20 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > PAN extended (country code) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 21 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Forwarding institution (country code) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 22 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Point of service entry mode </td></tr>
+<tr> <td colspan=1 rowspan=1 > 23 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Application PAN sequence number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 24 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Function code (ISO 8583:1993), or network international identifier (NII) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 25 </td><td colspan=1 rowspan=1 > n 2 </td><td colspan=1 rowspan=1 > Point of service condition code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 26 </td><td colspan=1 rowspan=1 > n 2 </td><td colspan=1 rowspan=1 > Point of service capture code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 27 </td><td colspan=1 rowspan=1 > n 1 </td><td colspan=1 rowspan=1 > Authorizing identification response length </td></tr>
+<tr> <td colspan=1 rowspan=1 > 28 </td><td colspan=1 rowspan=1 > x+n 8 </td><td colspan=1 rowspan=1 > Amount, transaction fee </td></tr>
+<tr> <td colspan=1 rowspan=1 > 29 </td><td colspan=1 rowspan=1 > x+n 8 </td><td colspan=1 rowspan=1 > Amount, settlement fee </td></tr>
+<tr> <td colspan=1 rowspan=1 > 30 </td><td colspan=1 rowspan=1 > x+n 8 </td><td colspan=1 rowspan=1 > Amount, transaction processing fee </td></tr>
+<tr> <td colspan=1 rowspan=1 > 31 </td><td colspan=1 rowspan=1 > x+n 8 </td><td colspan=1 rowspan=1 > Amount, settlement processing fee </td></tr>
+<tr> <td colspan=1 rowspan=1 > 32 </td><td colspan=1 rowspan=1 > n ..11 </td><td colspan=1 rowspan=1 > Acquiring institution identification code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 33 </td><td colspan=1 rowspan=1 > n ..11 </td><td colspan=1 rowspan=1 > Forwarding institution identification code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 34 </td><td colspan=1 rowspan=1 > ns ..28 </td><td colspan=1 rowspan=1 > Primary account number, extended </td></tr>
+<tr> <td colspan=1 rowspan=1 > 35 </td><td colspan=1 rowspan=1 > z ..37 </td><td colspan=1 rowspan=1 > Track 2 data </td></tr>
+<tr> <td colspan=1 rowspan=1 > 36 </td><td colspan=1 rowspan=1 > n ...104 </td><td colspan=1 rowspan=1 > Track 3 data </td></tr>
+<tr> <td colspan=1 rowspan=1 > 37 </td><td colspan=1 rowspan=1 > an 12 </td><td colspan=1 rowspan=1 > Retrieval reference number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 38 </td><td colspan=1 rowspan=1 > an 6 </td><td colspan=1 rowspan=1 > Authorization identification response </td></tr>
+<tr> <td colspan=1 rowspan=1 > 39 </td><td colspan=1 rowspan=1 > an 2 </td><td colspan=1 rowspan=1 > Response code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 40 </td><td colspan=1 rowspan=1 > an 3 </td><td colspan=1 rowspan=1 > Service restriction code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 41 </td><td colspan=1 rowspan=1 > ans 8 </td><td colspan=1 rowspan=1 > Card acceptor terminal identification </td></tr>
+<tr> <td colspan=1 rowspan=1 > 42 </td><td colspan=1 rowspan=1 > ans 15 </td><td colspan=1 rowspan=1 > Card acceptor identification code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 43 </td><td colspan=1 rowspan=1 > ans 40 </td><td colspan=1 rowspan=1 > Card acceptor name/location (1-23 street address, 24-36 city, 37-38 state, 39-40 country) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 44 </td><td colspan=1 rowspan=1 > an ..25 </td><td colspan=1 rowspan=1 > Additional response data </td></tr>
+<tr> <td colspan=1 rowspan=1 > 45 </td><td colspan=1 rowspan=1 > an ..76 </td><td colspan=1 rowspan=1 > Track 1 data </td></tr>
+<tr> <td colspan=1 rowspan=1 > 46 </td><td colspan=1 rowspan=1 > an ...999 </td><td colspan=1 rowspan=1 > Additional data (ISO) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 47 </td><td colspan=1 rowspan=1 > an ...999 </td><td colspan=1 rowspan=1 > Additional data (national) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 48 </td><td colspan=1 rowspan=1 > an ...999 </td><td colspan=1 rowspan=1 > Additional data (private) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 49 </td><td colspan=1 rowspan=1 > a or n 3 </td><td colspan=1 rowspan=1 > Currency code, transaction </td></tr>
+<tr> <td colspan=1 rowspan=1 > 50 </td><td colspan=1 rowspan=1 > a or n 3 </td><td colspan=1 rowspan=1 > Currency code, settlement </td></tr>
+<tr> <td colspan=1 rowspan=1 > 51 </td><td colspan=1 rowspan=1 > a or n 3 </td><td colspan=1 rowspan=1 > Currency code, cardholder billing </td></tr>
+<tr> <td colspan=1 rowspan=1 > 52 </td><td colspan=1 rowspan=1 > b 64 </td><td colspan=1 rowspan=1 > Personal identification number data </td></tr>
+<tr> <td colspan=1 rowspan=1 > 53 </td><td colspan=1 rowspan=1 > n 16 </td><td colspan=1 rowspan=1 > Security related control information </td></tr>
+<tr> <td colspan=1 rowspan=1 > 54 </td><td colspan=1 rowspan=1 > an ...120 </td><td colspan=1 rowspan=1 > Additional amounts </td></tr>
+<tr> <td colspan=1 rowspan=1 > 55 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=1 > ICC data – EMV having multiple tags </td></tr>
+<tr> <td colspan=1 rowspan=1 > 56 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=1 > Reserved (ISO) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 57 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=3 > Reserved (national) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 58 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 59 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 60 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=1 > Reserved (national) (e.g. settlement request: batch number, advice transactions: original transaction amount, batch upload: original MTI plus original RRN plus original STAN, etc) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 61 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=1 > Reserved (private) (e.g. CVV2/service code transactions) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 62 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=1 > Reserved (private) (e.g. transactions: invoice number, key exchange transactions: TPK key, etc.) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 63 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=1 > Reserved (private) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 64 </td><td colspan=1 rowspan=1 > b 64 </td><td colspan=1 rowspan=1 > Message authentication code (MAC) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 65 </td><td colspan=1 rowspan=1 > b 1 </td><td colspan=1 rowspan=1 > Extended bitmap indicator </td></tr>
+<tr> <td colspan=1 rowspan=1 > 66 </td><td colspan=1 rowspan=1 > n 1 </td><td colspan=1 rowspan=1 > Settlement code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 67 </td><td colspan=1 rowspan=1 > n 2 </td><td colspan=1 rowspan=1 > Extended payment code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 68 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Receiving institution country code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 69 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Settlement institution country code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 70 </td><td colspan=1 rowspan=1 > n 3 </td><td colspan=1 rowspan=1 > Network management information code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 71 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Message number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 72 </td><td colspan=1 rowspan=1 > n 4 </td><td colspan=1 rowspan=1 > Last message's number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 73 </td><td colspan=1 rowspan=1 > n 6 </td><td colspan=1 rowspan=1 > Action date (YYMMDD) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 74 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Number of credits </td></tr>
+<tr> <td colspan=1 rowspan=1 > 75 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Credits, reversal number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 76 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Number of debits </td></tr>
+<tr> <td colspan=1 rowspan=1 > 77 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Debits, reversal number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 78 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Transfer number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 79 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Transfer, reversal number </td></tr>
+<tr> <td colspan=1 rowspan=1 > 80 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Number of inquiries </td></tr>
+<tr> <td colspan=1 rowspan=1 > 81 </td><td colspan=1 rowspan=1 > n 10 </td><td colspan=1 rowspan=1 > Number of authorizations </td></tr>
+<tr> <td colspan=1 rowspan=1 > 82 </td><td colspan=1 rowspan=1 > n 12 </td><td colspan=1 rowspan=1 > Credits, processing fee amount </td></tr>
+<tr> <td colspan=1 rowspan=1 > 83 </td><td colspan=1 rowspan=1 > n 12 </td><td colspan=1 rowspan=1 > Credits, transaction fee amount </td></tr>
+<tr> <td colspan=1 rowspan=1 > 84 </td><td colspan=1 rowspan=1 > n 12 </td><td colspan=1 rowspan=1 > Debits, processing fee amount </td></tr>
+<tr> <td colspan=1 rowspan=1 > 85 </td><td colspan=1 rowspan=1 > n 12 </td><td colspan=1 rowspan=1 > Debits, transaction fee amount </td></tr>
+<tr> <td colspan=1 rowspan=1 > 86 </td><td colspan=1 rowspan=1 > n 16 </td><td colspan=1 rowspan=1 > Total amount of credits </td></tr>
+<tr> <td colspan=1 rowspan=1 > 87 </td><td colspan=1 rowspan=1 > n 16 </td><td colspan=1 rowspan=1 > Credits, reversal amount </td></tr>
+<tr> <td colspan=1 rowspan=1 > 88 </td><td colspan=1 rowspan=1 > n 16 </td><td colspan=1 rowspan=1 > Total amount of debits </td></tr>
+<tr> <td colspan=1 rowspan=1 > 89 </td><td colspan=1 rowspan=1 > n 16 </td><td colspan=1 rowspan=1 > Debits, reversal amount </td></tr>
+<tr> <td colspan=1 rowspan=1 > 90 </td><td colspan=1 rowspan=1 > n 42 </td><td colspan=1 rowspan=1 > Original data elements </td></tr>
+<tr> <td colspan=1 rowspan=1 > 91 </td><td colspan=1 rowspan=1 > an 1 </td><td colspan=1 rowspan=1 > File update code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 92 </td><td colspan=1 rowspan=1 > an 2 </td><td colspan=1 rowspan=1 > File security code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 93 </td><td colspan=1 rowspan=1 > an 5 </td><td colspan=1 rowspan=1 > Response indicator </td></tr>
+<tr> <td colspan=1 rowspan=1 > 94 </td><td colspan=1 rowspan=1 > an 7 </td><td colspan=1 rowspan=1 > Service indicator </td></tr>
+<tr> <td colspan=1 rowspan=1 > 95 </td><td colspan=1 rowspan=1 > an 42 </td><td colspan=1 rowspan=1 > Replacement amounts </td></tr>
+<tr> <td colspan=1 rowspan=1 > 96 </td><td colspan=1 rowspan=1 > b 64 </td><td colspan=1 rowspan=1 > Message security code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 97 </td><td colspan=1 rowspan=1 > x+n 16 </td><td colspan=1 rowspan=1 > Net settlement amount </td></tr>
+<tr> <td colspan=1 rowspan=1 > 98 </td><td colspan=1 rowspan=1 > ans 25 </td><td colspan=1 rowspan=1 > Payee </td></tr>
+<tr> <td colspan=1 rowspan=1 > 99 </td><td colspan=1 rowspan=1 > n ..11 </td><td colspan=1 rowspan=1 > Settlement institution identification code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 100 </td><td colspan=1 rowspan=1 > n ..11 </td><td colspan=1 rowspan=1 > Receiving institution identification code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 101 </td><td colspan=1 rowspan=1 > ans ..17 </td><td colspan=1 rowspan=1 > File name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 102 </td><td colspan=1 rowspan=1 > ans ..28 </td><td colspan=1 rowspan=1 > Account identification 1 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 103 </td><td colspan=1 rowspan=1 > ans ..28 </td><td colspan=1 rowspan=1 > Account identification 2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 104 </td><td colspan=1 rowspan=1 > ans ...100 </td><td colspan=1 rowspan=1 > Transaction description </td></tr>
+<tr> <td colspan=1 rowspan=1 > 105 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=7 > Reserved for ISO use </td></tr>
+<tr> <td colspan=1 rowspan=1 > 106 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 107 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 108 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 109 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 110 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 111 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 112 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=8 > Reserved for national use </td></tr>
+<tr> <td colspan=1 rowspan=1 > 113 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 114 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 115 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 116 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 117 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 118 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 119 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 120 </td><td colspan=1 rowspan=1 > ans ...999 </td><td colspan=1 rowspan=8 > Reserved for private use </td></tr>
+<tr> <td colspan=1 rowspan=1 > 121 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 122 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 123 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 124 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 125 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 126 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 127 </td><td colspan=1 rowspan=1 > ans ...999 </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > 128 </td><td colspan=1 rowspan=1 > b 64 </td><td colspan=1 rowspan=1 > Message authentication code </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. There are 128 data elements in the ISO 8583:1987. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

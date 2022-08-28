@@ -1,0 +1,43 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>HTML5 video</h2><br> <b>Section Title</b>: Browser support <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Browser </th><th colspan=1 rowspan=1 > Operating System </th><th colspan=1 rowspan=1 > Theora (Ogg) </th><th colspan=1 rowspan=1 > H.264 (MP4) </th><th colspan=1 rowspan=1 > HEVC (MP4) </th><th colspan=1 rowspan=1 > VP8 (WebM) </th><th colspan=1 rowspan=1 > VP9 (WebM) </th><th colspan=1 rowspan=1 > AV1 (WebM) </th></tr>
+<tr> <th colspan=1 rowspan=1 > Android browser </th><td colspan=1 rowspan=1 > Android </td><td colspan=1 rowspan=1 > Since 2.3 </td><td colspan=1 rowspan=1 > Since 3.0 </td><td colspan=1 rowspan=1 > Since 5.0 </td><td colspan=1 rowspan=1 > Since 2.3 </td><td colspan=1 rowspan=1 > Since 4.4 </td><td colspan=1 rowspan=1 > No </td></tr>
+<tr> <th colspan=1 rowspan=1 > Chromium </th><td colspan=1 rowspan=1 > Unix-like and Windows </td><td colspan=1 rowspan=1 > Since r18297 </td><td colspan=1 rowspan=1 > Via FFmpeg </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > Since r47759 </td><td colspan=1 rowspan=1 > Since r172738 </td><td colspan=1 rowspan=1 > Yes </td></tr>
+<tr> <th colspan=1 rowspan=1 > Google Chrome </th><td colspan=1 rowspan=1 > Unix-like, Android, macOS, iOS, and Windows </td><td colspan=1 rowspan=1 > Since 3.0 </td><td colspan=1 rowspan=1 > Since 3.0 </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > Since 6.0 </td><td colspan=1 rowspan=1 > Since 29.0 </td><td colspan=1 rowspan=1 > Since 70 </td></tr>
+<tr> <th colspan=1 rowspan=3 > Internet Explorer </th><td colspan=1 rowspan=1 > Windows </td><td colspan=1 rowspan=1 > Via OpenCodecs </td><td colspan=1 rowspan=1 > Since 9.0 </td><td colspan=1 rowspan=3 > No </td><td colspan=1 rowspan=1 > Via OpenCodecs </td><td colspan=1 rowspan=3 > No </td><td colspan=1 rowspan=3 > No </td></tr>
+<tr> <td colspan=1 rowspan=1 > Windows Phone </td><td colspan=1 rowspan=1 > Since 9.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Windows RT </td><td colspan=1 rowspan=1 > Since 10.0 </td></tr>
+<tr> <th class="highlighted"  colspan=1 rowspan=2 > Microsoft Edge </th><td colspan=1 rowspan=1 > Windows 10 </td><td colspan=1 rowspan=1 > Since 17.0 (with Web Media Extensions) </td><td colspan=1 rowspan=1 > Since 12.0 </td><td colspan=1 rowspan=2 > Needs hardware decoder </td><td colspan=1 rowspan=1 > Since 17.0 (supports tag with Web Media Extensions and VP9 Video Extensions) </td><td class="highlighted"  colspan=1 rowspan=1 > Only enabled by default if hardware decoder present Since 17.0 (supports tag with Web Media Extensions and VP9 Video Extensions) </td><td class="highlighted"  colspan=1 rowspan=1 > Since 18.0 (with AV1 Video Extension) </td></tr>
+<tr> <td colspan=1 rowspan=1 > Windows 10 Mobile </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=1 > Since 13.0 </td><td colspan=1 rowspan=1 > Since 15.0 (only via MSE) </td><td colspan=1 rowspan=1 > Since 14.0 (only via MSE) </td><td colspan=1 rowspan=1 > No </td></tr>
+<tr> <th colspan=1 rowspan=1 > Konqueror </th><td colspan=1 rowspan=1 > Unix-like and Windows </td><td colspan=6 rowspan=1 > Needs OS-level codecs </td></tr>
+<tr> <th colspan=1 rowspan=7 > Mozilla Firefox </th><td colspan=1 rowspan=1 > Windows 7+ </td><td colspan=1 rowspan=7 > Since 3.5 </td><td colspan=1 rowspan=1 > Since 21.0 </td><td colspan=1 rowspan=7 > No </td><td colspan=1 rowspan=7 > Since 4.0 </td><td colspan=1 rowspan=7 > Since 28.0 </td><td colspan=1 rowspan=3 > Since 65.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Windows Vista </td><td colspan=1 rowspan=1 > Since 22.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Windows XP and N editions </td><td colspan=1 rowspan=1 > Since 46.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Linux </td><td colspan=1 rowspan=1 > 26.0 (via GStreamer) 43.0 (via FFmpeg) </td><td colspan=1 rowspan=2 > in Nigthly </td></tr>
+<tr> <td colspan=1 rowspan=1 > Android </td><td colspan=1 rowspan=1 > Since 17.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > macOS </td><td colspan=1 rowspan=1 > Since 34.0 </td><td colspan=1 rowspan=1 > Since 66.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Firefox OS </td><td colspan=1 rowspan=1 > Since 1.1 </td><td colspan=1 rowspan=1 > in Nigthly </td></tr>
+<tr> <th colspan=1 rowspan=1 > Opera Mobile </th><td colspan=1 rowspan=1 > Android, iOS, Symbian, and Windows Mobile </td><td colspan=1 rowspan=1 > Since 13.0 </td><td colspan=1 rowspan=1 > Since 11.50 </td><td colspan=1 rowspan=2 > No </td><td colspan=1 rowspan=1 > Since 15.0 </td><td colspan=1 rowspan=1 > Since 16.0 </td><td colspan=1 rowspan=1 > since 57.0 </td></tr>
+<tr> <th colspan=1 rowspan=1 > Opera </th><td colspan=1 rowspan=1 > macOS, Windows, Linux </td><td colspan=1 rowspan=1 > Since 10.50 </td><td colspan=1 rowspan=1 > Since 24.0 </td><td colspan=1 rowspan=1 > Since 10.60 </td><td colspan=1 rowspan=1 > Yes </td><td colspan=1 rowspan=1 > since 57.0 </td></tr>
+<tr> <th colspan=1 rowspan=2 > Safari </th><td colspan=1 rowspan=1 > iOS </td><td colspan=1 rowspan=1 > No </td><td colspan=1 rowspan=2 > Since 3.1 </td><td colspan=1 rowspan=2 > Since 11 </td><td colspan=1 rowspan=2 > Since 12.1 (only supports WebRTC) </td><td colspan=1 rowspan=2 > No </td><td colspan=1 rowspan=2 > No </td></tr>
+<tr> <td colspan=1 rowspan=1 > macOS </td><td colspan=1 rowspan=1 > Via Xiph QuickTime Components (macOS 10.11 and earlier) </td></tr>
+<tr> <th colspan=1 rowspan=1 > GNOME Web </th><td colspan=1 rowspan=1 > Linux and BSD </td><td colspan=6 rowspan=1 > Needs OS-level codecs </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. Microsoft supports VP9 and WebM and also support for AV1. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

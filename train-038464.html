@@ -1,0 +1,41 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Hayes command set</h2><br> <b>Section Title</b>: Modem S register definitions <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Register </th><th colspan=1 rowspan=1 > Description </th><th colspan=1 rowspan=1 > Range </th><th colspan=1 rowspan=1 > Default value </th></tr>
+<tr> <td colspan=1 rowspan=1 > S0 </td><td colspan=1 rowspan=1 > Number of rings before Auto-Answer </td><td colspan=1 rowspan=1 > 0–255 (0 = never) </td><td colspan=1 rowspan=1 > 0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > S1 </td><td colspan=1 rowspan=1 > Ring Counter </td><td colspan=1 rowspan=1 > 0–255 rings </td><td colspan=1 rowspan=1 > 0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > S2 </td><td colspan=1 rowspan=1 > Escape character </td><td colspan=1 rowspan=1 > 0–255, ASCII decimal </td><td colspan=1 rowspan=1 > 43 ("+") </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > S3 </td><td class="highlighted"  colspan=1 rowspan=1 > Carriage Return Character </td><td colspan=1 rowspan=1 > 0–127, ASCII decimal </td><td colspan=1 rowspan=1 > 13 (Carriage Return) </td></tr>
+<tr> <td colspan=1 rowspan=1 > S4 </td><td colspan=1 rowspan=1 > Line Feed Character </td><td colspan=1 rowspan=1 > 0–127, ASCII decimal </td><td colspan=1 rowspan=1 > 10 (Line Feed) </td></tr>
+<tr> <td colspan=1 rowspan=1 > S5 </td><td colspan=1 rowspan=1 > Backspace Character </td><td colspan=1 rowspan=1 > 0–32, ASCII decimal </td><td colspan=1 rowspan=1 > 8 (Backspace) </td></tr>
+<tr> <td colspan=1 rowspan=1 > S6 </td><td colspan=1 rowspan=1 > Wait Time before Blind Dialing </td><td colspan=1 rowspan=1 > 2–255 seconds </td><td colspan=1 rowspan=1 > 2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > S7 </td><td colspan=1 rowspan=1 > Wait for Carrier after Dial </td><td colspan=1 rowspan=1 > 1–255 seconds </td><td colspan=1 rowspan=1 > 50 </td></tr>
+<tr> <td colspan=1 rowspan=1 > S8 </td><td colspan=1 rowspan=1 > Pause Time for Comma (Dial Delay) </td><td colspan=1 rowspan=1 > 0–255 seconds </td><td colspan=1 rowspan=1 > 2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > S9 </td><td colspan=1 rowspan=1 > Carrier Detect Response Time </td><td colspan=1 rowspan=1 > 1–255 tenths of a seconds </td><td colspan=1 rowspan=1 > 6 (0.6 second) </td></tr>
+<tr> <td colspan=1 rowspan=1 > S10 </td><td colspan=1 rowspan=1 > Delay between Loss of Carrier and Hang-Up </td><td colspan=1 rowspan=1 > 1–255 tenths of a second </td><td colspan=1 rowspan=1 > 14 (1.4 seconds) </td></tr>
+<tr> <td colspan=1 rowspan=1 > S11 </td><td colspan=1 rowspan=1 > DTMF Tone Duration </td><td colspan=1 rowspan=1 > 50–255 milliseconds </td><td colspan=1 rowspan=1 > 95 milliseconds </td></tr>
+<tr> <td colspan=1 rowspan=1 > S12 </td><td colspan=1 rowspan=1 > Escape Code Guard Time </td><td colspan=1 rowspan=1 > 0–255 fiftieths of a second </td><td colspan=1 rowspan=1 > 50 (1 second) </td></tr>
+<tr> <td colspan=1 rowspan=1 > S18 </td><td colspan=1 rowspan=1 > Test Timer </td><td colspan=1 rowspan=1 > 0–255 seconds </td><td colspan=1 rowspan=1 > 0 seconds </td></tr>
+<tr> <td colspan=1 rowspan=1 > S25 </td><td colspan=1 rowspan=1 > Delay to DTR </td><td colspan=1 rowspan=1 > 0–255 (seconds if synchronous mode, hundredths of a second in all other modes) </td><td colspan=1 rowspan=1 > 5 </td></tr>
+<tr> <td colspan=1 rowspan=1 > S26 </td><td colspan=1 rowspan=1 > RTS to CTS Delay Interval </td><td colspan=1 rowspan=1 > 0–255 hundredths of a second </td><td colspan=1 rowspan=1 > 1 hundredth of a second </td></tr>
+<tr> <td colspan=1 rowspan=1 > S30 </td><td colspan=1 rowspan=1 > Inactivity Disconnect Timer </td><td colspan=1 rowspan=1 > 0–255 tens of seconds </td><td colspan=1 rowspan=1 > 0 (disable) </td></tr>
+<tr> <td colspan=1 rowspan=1 > S37 </td><td colspan=1 rowspan=1 > Desired Telco Line Speed </td><td colspan=1 rowspan=1 > 0–10 Command options: 0 Attempt auto mode connection 1 Attempt to connect at 300 bit/s 2 Attempt to connect at 300 bit/s 3 Attempt to connect at 300 bit/s 5 Attempt to connect at 1200 bit/s 6 Attempt to connect at 2400 bit/s 7 Attempt to connect in V.23 75/1200 mode. </td><td colspan=1 rowspan=1 > 0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > S38 </td><td colspan=1 rowspan=1 > Delay before Force Disconnect </td><td colspan=1 rowspan=1 > 0–255 seconds </td><td colspan=1 rowspan=1 > 20 seconds </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. Carriage return character is the S3 register command. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

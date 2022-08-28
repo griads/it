@@ -1,0 +1,32 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Parallel ATA</h2><br> <b>Section Title</b>: Features introduced with each ATA revision <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Standard </th><th colspan=1 rowspan=1 > Other names </th><th colspan=1 rowspan=1 > New transfer modes </th><th colspan=1 rowspan=1 > Maximum disk size (512 byte sector) </th><th colspan=1 rowspan=1 > Other new features </th><th colspan=1 rowspan=1 > ANSI reference </th></tr>
+<tr> <td colspan=1 rowspan=1 > IDE (pre-ATA) </td><td colspan=1 rowspan=1 > IDE </td><td colspan=1 rowspan=1 > PIO 0 </td><td colspan=1 rowspan=1 > 2 GiB (2.1 GB) </td><td colspan=1 rowspan=1 > 22-bit logical block addressing (LBA) </td><td colspan=1 rowspan=1 > – </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA-1 </td><td colspan=1 rowspan=1 > ATA, IDE </td><td colspan=1 rowspan=1 > PIO 0, 1, 2 Single-word DMA 0, 1, 2 Multi-word DMA 0 </td><td colspan=1 rowspan=1 > 128 GiB (137 GB) </td><td colspan=1 rowspan=1 > 28-bit logical block addressing (LBA) </td><td colspan=1 rowspan=1 > X3.221-1994 (obsolete since 1999) </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA-2 </td><td colspan=1 rowspan=1 > EIDE, Fast ATA, Fast IDE, Ultra ATA </td><td colspan=1 rowspan=1 > PIO 3, 4 Multi-word DMA 1, 2 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > PCMCIA connector. Identify drive command. </td><td colspan=1 rowspan=1 > X3.279-1996 (obsolete since 2001) </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA-3 </td><td colspan=1 rowspan=1 > EIDE </td><td colspan=1 rowspan=1 > Single-word DMA modes dropped </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > S.M.A.R.T., Security, 44 pin connector for 2.5" drives </td><td colspan=1 rowspan=1 > X3.298-1997 (obsolete since 2002) </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > ATA/ATAPI-4 </td><td colspan=1 rowspan=1 > ATA-4, Ultra ATA/33 </td><td colspan=1 rowspan=1 > Ultra DMA 0, 1, 2, also known as UDMA/33 </td><td colspan=1 rowspan=1 >  </td><td class="highlighted"  colspan=1 rowspan=1 > AT Attachment Packet Interface (ATAPI) (support for CD-ROM, tape drives etc.), Optional overlapped and queued command set features, Host Protected Area (HPA), CompactFlash Association (CFA) feature set for solid state drives </td><td class="highlighted"  colspan=1 rowspan=1 > NCITS 317-1998 </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA/ATAPI-5 </td><td colspan=1 rowspan=1 > ATA-5, Ultra ATA/66 </td><td colspan=1 rowspan=1 > Ultra DMA 3, 4, also known as UDMA/66 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > 80-wire cables; CompactFlash connector </td><td colspan=1 rowspan=1 > NCITS 340-2000 </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA/ATAPI-6 </td><td colspan=1 rowspan=1 > ATA-6, Ultra ATA/100 </td><td colspan=1 rowspan=1 > UDMA 5, also known as UDMA/100 </td><td colspan=1 rowspan=1 > 128 PiB (144 PB) </td><td colspan=1 rowspan=1 > 48-bit LBA, Device Configuration Overlay (DCO), Automatic Acoustic Management (AAM) </td><td colspan=1 rowspan=1 > NCITS 361-2002 </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA/ATAPI-7 </td><td colspan=1 rowspan=1 > ATA-7, Ultra ATA/133 </td><td colspan=1 rowspan=1 > UDMA 6, also known as UDMA/133 SATA/150 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SATA 1.0, Streaming feature set, long logical/physical sector feature set for non-packet devices </td><td colspan=1 rowspan=1 > INCITS 397-2005 (vol 1) INCITS 397-2005 (vol 2) INCITS 397-2005 (vol 3) </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA/ATAPI-8 </td><td colspan=1 rowspan=1 > ATA-8 </td><td colspan=1 rowspan=1 > — </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Hybrid drive featuring non-volatile cache to speed up critical OS files </td><td colspan=1 rowspan=1 > INCITS 452-2008 </td></tr>
+<tr> <td colspan=1 rowspan=1 > ATA/ATAPI-8 </td><td colspan=1 rowspan=1 > ACS-2 </td><td colspan=1 rowspan=1 > — </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Data Set Management, Extended Power Conditions, CFast, additional stats., etc. </td><td colspan=1 rowspan=1 > INCITS 482-2012 </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. ATAPI was adopted as part of ATA in INCITS 317-1998, AT Attachment with Packet Interface (ATA/ATAPI-4). <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

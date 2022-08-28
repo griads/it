@@ -1,0 +1,33 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Domain Name System Security Extensions</h2><br> <b>Section Title</b>: Algorithms <br><b>Table Section Text</b>: DNSSEC was designed to be extensible so that as attacks are discovered against existing algorithms, new ones can be introduced in a backward-compatible fashion. <br> <table>
+<tr> <th colspan=1 rowspan=1 > Algorithm field </th><th colspan=1 rowspan=1 > Algorithm </th><th colspan=1 rowspan=1 > Source </th><th colspan=1 rowspan=1 > Implementation status </th></tr>
+<tr> <td colspan=1 rowspan=1 > 1 </td><td colspan=1 rowspan=1 > RSA/MD5 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Must Not Implement </td></tr>
+<tr> <td colspan=1 rowspan=1 > 3 </td><td colspan=1 rowspan=1 > DSA/SHA-1 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Optional </td></tr>
+<tr> <td colspan=1 rowspan=1 > 5 </td><td colspan=1 rowspan=1 > RSA/SHA-1 </td><td colspan=1 rowspan=1 > RFC 3110 </td><td colspan=1 rowspan=1 > Required </td></tr>
+<tr> <td colspan=1 rowspan=1 > 7 </td><td colspan=1 rowspan=1 > RSASHA1-NSEC3-SHA1 </td><td colspan=1 rowspan=1 > RFC 5155 </td><td colspan=1 rowspan=1 > Recommended </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > 8 </td><td class="highlighted"  colspan=1 rowspan=1 > RSA/SHA-256 </td><td class="highlighted"  colspan=1 rowspan=2 > RFC 5702 </td><td colspan=1 rowspan=1 > Recommended </td></tr>
+<tr> <td colspan=1 rowspan=1 > 10 </td><td colspan=1 rowspan=1 > RSA/SHA-512 </td><td colspan=1 rowspan=1 > Recommended </td></tr>
+<tr> <td colspan=1 rowspan=1 > 12 </td><td colspan=1 rowspan=1 > GOST R 34.10-2001 </td><td colspan=1 rowspan=1 > RFC 5933 </td><td colspan=1 rowspan=1 > Optional </td></tr>
+<tr> <td colspan=1 rowspan=1 > 13 </td><td colspan=1 rowspan=1 > ECDSA/SHA-256 </td><td colspan=1 rowspan=2 > RFC 6605 </td><td colspan=1 rowspan=1 > Recommended </td></tr>
+<tr> <td colspan=1 rowspan=1 > 14 </td><td colspan=1 rowspan=1 > ECDSA/SHA-384 </td><td colspan=1 rowspan=1 > Recommended </td></tr>
+<tr> <td colspan=1 rowspan=1 > 15 </td><td colspan=1 rowspan=1 > Ed25519 </td><td colspan=1 rowspan=2 > RFC 8080 </td><td colspan=1 rowspan=1 > Optional </td></tr>
+<tr> <td colspan=1 rowspan=1 > 16 </td><td colspan=1 rowspan=1 > Ed448 </td><td colspan=1 rowspan=1 > Optional </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. In the Domain Name System Security Extensions, the zone 8 uses SHA-256 with the RSA algorithm, as defined in RFC 5702. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

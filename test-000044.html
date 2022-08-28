@@ -1,0 +1,157 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>GUID Partition Table</h2><br> <b>Section Title</b>: Partition type GUIDs <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Operating system </th><th colspan=1 rowspan=1 > Partition type </th><th colspan=1 rowspan=1 > Globally unique identifier (GUID) </th></tr>
+<tr> <td colspan=1 rowspan=7 > N/A </td><td colspan=1 rowspan=1 > Unused entry </td><td colspan=1 rowspan=1 > 00000000-0000-0000-0000-000000000000 </td></tr>
+<tr> <td colspan=1 rowspan=1 > MBR partition scheme </td><td colspan=1 rowspan=1 > 024DEE41-33E7-11D3-9D69-0008C781F39F </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > EFI System partition </td><td class="highlighted"  colspan=1 rowspan=1 > C12A7328-F81F-11D2-BA4B-00A0C93EC93B </td></tr>
+<tr> <td colspan=1 rowspan=1 > BIOS boot partition </td><td colspan=1 rowspan=1 > 21686148-6449-6E6F-744E-656564454649 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Intel Fast Flash (iFFS) partition (for Intel Rapid Start technology) </td><td colspan=1 rowspan=1 > D3BFE2DE-3DAF-11DF-BA40-E3A556D89593 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Sony boot partition </td><td colspan=1 rowspan=1 > F4019732-066E-4E12-8273-346C5641494F </td></tr>
+<tr> <td colspan=1 rowspan=1 > Lenovo boot partition </td><td colspan=1 rowspan=1 > BFBFAFE7-A34F-448A-9A5B-6213EB736C22 </td></tr>
+<tr> <td colspan=1 rowspan=7 > Windows </td><td colspan=1 rowspan=1 > Microsoft Reserved Partition (MSR) </td><td colspan=1 rowspan=1 > E3C9E316-0B5C-4DB8-817D-F92DF00215AE </td></tr>
+<tr> <td colspan=1 rowspan=1 > Basic data partition </td><td colspan=1 rowspan=1 > EBD0A0A2-B9E5-4433-87C0-68B6B72699C7 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Logical Disk Manager (LDM) metadata partition </td><td colspan=1 rowspan=1 > 5808C8AA-7E8F-42E0-85D2-E1E90434CFB3 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Logical Disk Manager data partition </td><td colspan=1 rowspan=1 > AF9B60A0-1431-4F62-BC68-3311714A69AD </td></tr>
+<tr> <td colspan=1 rowspan=1 > Windows Recovery Environment </td><td colspan=1 rowspan=1 > DE94BBA4-06D1-4D40-A16A-BFD50179D6AC </td></tr>
+<tr> <td colspan=1 rowspan=1 > IBM General Parallel File System (GPFS) partition </td><td colspan=1 rowspan=1 > 37AFFC90-EF7D-4E96-91C3-2D7AE055B174 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Storage Spaces partition </td><td colspan=1 rowspan=1 > E75CAF8F-F680-4CEE-AFA3-B001E56EFC2D </td></tr>
+<tr> <td colspan=1 rowspan=2 > HP-UX </td><td colspan=1 rowspan=1 > Data partition </td><td colspan=1 rowspan=1 > 75894C1E-3AEB-11D3-B7C1-7B03A0000000 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Service Partition </td><td colspan=1 rowspan=1 > E2A1E728-32E3-11D6-A682-7B03A0000000 </td></tr>
+<tr> <td colspan=1 rowspan=13 > Linux </td><td colspan=1 rowspan=1 > Linux filesystem data </td><td colspan=1 rowspan=1 > 0FC63DAF-8483-4772-8E79-3D69D8477DE4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > RAID partition </td><td colspan=1 rowspan=1 > A19D880F-05FC-4D3B-A006-743F0F84911E </td></tr>
+<tr> <td colspan=1 rowspan=1 > Root partition (x86) </td><td colspan=1 rowspan=1 > 44479540-F297-41B2-9AF7-D131D5F0458A </td></tr>
+<tr> <td colspan=1 rowspan=1 > Root partition (x86-64) </td><td colspan=1 rowspan=1 > 4F68BCE3-E8CD-4DB1-96E7-FBCAF984B709 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Root partition (32-bit ARM) </td><td colspan=1 rowspan=1 > 69DAD710-2CE4-4E3C-B16C-21A1D49ABED3 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Root partition (64-bit ARM/AArch64) </td><td colspan=1 rowspan=1 > B921B045-1DF0-41C3-AF44-4C6F280D3FAE </td></tr>
+<tr> <td colspan=1 rowspan=1 > Swap partition </td><td colspan=1 rowspan=1 > 0657FD6D-A4AB-43C4-84E5-0933C84B4F4F </td></tr>
+<tr> <td colspan=1 rowspan=1 > Logical Volume Manager (LVM) partition </td><td colspan=1 rowspan=1 > E6D6D379-F507-44C2-A23C-238F2A3DF928 </td></tr>
+<tr> <td colspan=1 rowspan=1 > /home partition </td><td colspan=1 rowspan=1 > 933AC7E1-2EB4-4F13-B844-0E14E2AEF915 </td></tr>
+<tr> <td colspan=1 rowspan=1 > /srv (server data) partition </td><td colspan=1 rowspan=1 > 3B8F8425-20E0-4F3B-907F-1A25A76F98E8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Plain dm-crypt partition </td><td colspan=1 rowspan=1 > 7FFEC5C9-2D00-49B7-8941-3EA10A5586B7 </td></tr>
+<tr> <td colspan=1 rowspan=1 > LUKS partition </td><td colspan=1 rowspan=1 > CA7D7CCB-63ED-4C53-861C-1742536059CC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Reserved </td><td colspan=1 rowspan=1 > 8DA63339-0007-60C0-C436-083AC8230908 </td></tr>
+<tr> <td colspan=1 rowspan=6 > FreeBSD </td><td colspan=1 rowspan=1 > Boot partition </td><td colspan=1 rowspan=1 > 83BD6B9D-7F41-11DC-BE0B-001560B84F0F </td></tr>
+<tr> <td colspan=1 rowspan=1 > Data partition </td><td colspan=1 rowspan=1 > 516E7CB4-6ECF-11D6-8FF8-00022D09712B </td></tr>
+<tr> <td colspan=1 rowspan=1 > Swap partition </td><td colspan=1 rowspan=1 > 516E7CB5-6ECF-11D6-8FF8-00022D09712B </td></tr>
+<tr> <td colspan=1 rowspan=1 > Unix File System (UFS) partition </td><td colspan=1 rowspan=1 > 516E7CB6-6ECF-11D6-8FF8-00022D09712B </td></tr>
+<tr> <td colspan=1 rowspan=1 > Vinum volume manager partition </td><td colspan=1 rowspan=1 > 516E7CB8-6ECF-11D6-8FF8-00022D09712B </td></tr>
+<tr> <td colspan=1 rowspan=1 > ZFS partition </td><td colspan=1 rowspan=1 > 516E7CBA-6ECF-11D6-8FF8-00022D09712B </td></tr>
+<tr> <td colspan=1 rowspan=14 > macOS Darwin </td><td colspan=1 rowspan=1 > Hierarchical File System Plus (HFS+) partition </td><td colspan=1 rowspan=1 > 48465300-0000-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple APFS </td><td colspan=1 rowspan=1 > 7C3457EF-0000-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple UFS container </td><td colspan=1 rowspan=1 > 55465300-0000-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > ZFS </td><td colspan=1 rowspan=1 > 6A898CC3-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple RAID partition </td><td colspan=1 rowspan=1 > 52414944-0000-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple RAID partition, offline </td><td colspan=1 rowspan=1 > 52414944-5F4F-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple Boot partition (Recovery HD) </td><td colspan=1 rowspan=1 > 426F6F74-0000-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple Label </td><td colspan=1 rowspan=1 > 4C616265-6C00-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple TV Recovery partition </td><td colspan=1 rowspan=1 > 5265636F-7665-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple Core Storage (i.e. Lion FileVault) partition </td><td colspan=1 rowspan=1 > 53746F72-6167-11AA-AA11-00306543ECAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > SoftRAID_Status </td><td colspan=1 rowspan=1 > B6FA30DA-92D2-4A9A-96F1-871EC6486200 </td></tr>
+<tr> <td colspan=1 rowspan=1 > SoftRAID_Scratch </td><td colspan=1 rowspan=1 > 2E313465-19B9-463F-8126-8A7993773801 </td></tr>
+<tr> <td colspan=1 rowspan=1 > SoftRAID_Volume </td><td colspan=1 rowspan=1 > FA709C7E-65B1-4593-BFD5-E71D61DE9B02 </td></tr>
+<tr> <td colspan=1 rowspan=1 > SoftRAID_Cache </td><td colspan=1 rowspan=1 > BBBA6DF5-F46F-4A89-8F59-8765B2727503 </td></tr>
+<tr> <td colspan=1 rowspan=13 > Solaris illumos </td><td colspan=1 rowspan=1 > Boot partition </td><td colspan=1 rowspan=1 > 6A82CB45-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Root partition </td><td colspan=1 rowspan=1 > 6A85CF4D-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Swap partition </td><td colspan=1 rowspan=1 > 6A87C46F-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Backup partition </td><td colspan=1 rowspan=1 > 6A8B642B-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > /usr partition </td><td colspan=1 rowspan=1 > 6A898CC3-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > /var partition </td><td colspan=1 rowspan=1 > 6A8EF2E9-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > /home partition </td><td colspan=1 rowspan=1 > 6A90BA39-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Alternate sector </td><td colspan=1 rowspan=1 > 6A9283A5-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=5 > Reserved partition </td><td colspan=1 rowspan=1 > 6A945A3B-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 6A9630D1-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 6A980767-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 6A96237F-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 6A8D2AC7-1DD2-11B2-99A6-080020736631 </td></tr>
+<tr> <td colspan=1 rowspan=6 > NetBSD </td><td colspan=1 rowspan=1 > Swap partition </td><td colspan=1 rowspan=1 > 49F48D32-B10E-11DC-B99B-0019D1879648 </td></tr>
+<tr> <td colspan=1 rowspan=1 > FFS partition </td><td colspan=1 rowspan=1 > 49F48D5A-B10E-11DC-B99B-0019D1879648 </td></tr>
+<tr> <td colspan=1 rowspan=1 > LFS partition </td><td colspan=1 rowspan=1 > 49F48D82-B10E-11DC-B99B-0019D1879648 </td></tr>
+<tr> <td colspan=1 rowspan=1 > RAID partition </td><td colspan=1 rowspan=1 > 49F48DAA-B10E-11DC-B99B-0019D1879648 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Concatenated partition </td><td colspan=1 rowspan=1 > 2DB519C4-B10F-11DC-B99B-0019D1879648 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Encrypted partition </td><td colspan=1 rowspan=1 > 2DB519EC-B10F-11DC-B99B-0019D1879648 </td></tr>
+<tr> <td colspan=1 rowspan=3 > Chrome OS </td><td colspan=1 rowspan=1 > Chrome OS kernel </td><td colspan=1 rowspan=1 > FE3A2A5D-4F32-41A7-B725-ACCC3285A309 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Chrome OS rootfs </td><td colspan=1 rowspan=1 > 3CB8E202-3B7E-47DD-8A3C-7FF2A13CFCEC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Chrome OS future use </td><td colspan=1 rowspan=1 > 2E0A753D-9E48-43B0-8337-B15192CB1B5E </td></tr>
+<tr> <td colspan=1 rowspan=4 > Container Linux by CoreOS </td><td colspan=1 rowspan=1 > /usr partition (coreos-usr) </td><td colspan=1 rowspan=1 > 5DFBF5F4-2848-4BAC-AA5E-0D9A20B745A6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Resizable rootfs (coreos-resize) </td><td colspan=1 rowspan=1 > 3884DD41-8582-4404-B9A8-E9B84F2DF50E </td></tr>
+<tr> <td colspan=1 rowspan=1 > OEM customizations (coreos-reserved) </td><td colspan=1 rowspan=1 > C95DC21A-DF0E-4340-8D7B-26CBFA9A03E0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Root filesystem on RAID (coreos-root-raid) </td><td colspan=1 rowspan=1 > BE9067B9-EA49-4F15-B4F6-F36F8C9E1818 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Haiku </td><td colspan=1 rowspan=1 > Haiku BFS </td><td colspan=1 rowspan=1 > 42465331-3BA3-10F1-802A-4861696B7521 </td></tr>
+<tr> <td colspan=1 rowspan=6 > MidnightBSD </td><td colspan=1 rowspan=1 > Boot partition </td><td colspan=1 rowspan=1 > 85D5E45E-237C-11E1-B4B3-E89A8F7FC3A7 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Data partition </td><td colspan=1 rowspan=1 > 85D5E45A-237C-11E1-B4B3-E89A8F7FC3A7 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Swap partition </td><td colspan=1 rowspan=1 > 85D5E45B-237C-11E1-B4B3-E89A8F7FC3A7 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Unix File System (UFS) partition </td><td colspan=1 rowspan=1 > 0394EF8B-237E-11E1-B4B3-E89A8F7FC3A7 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Vinum volume manager partition </td><td colspan=1 rowspan=1 > 85D5E45C-237C-11E1-B4B3-E89A8F7FC3A7 </td></tr>
+<tr> <td colspan=1 rowspan=1 > ZFS partition </td><td colspan=1 rowspan=1 > 85D5E45D-237C-11E1-B4B3-E89A8F7FC3A7 </td></tr>
+<tr> <td colspan=1 rowspan=24 > Ceph </td><td colspan=1 rowspan=1 > Journal </td><td colspan=1 rowspan=1 > 45B0969E-9B03-4F30-B4C6-B4B80CEFF106 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt journal </td><td colspan=1 rowspan=1 > 45B0969E-9B03-4F30-B4C6-5EC00CEFF106 </td></tr>
+<tr> <td colspan=1 rowspan=1 > OSD </td><td colspan=1 rowspan=1 > 4FBD7E29-9D25-41B8-AFD0-062C0CEFF05D </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt OSD </td><td colspan=1 rowspan=1 > 4FBD7E29-9D25-41B8-AFD0-5EC00CEFF05D </td></tr>
+<tr> <td colspan=1 rowspan=1 > Disk in creation </td><td colspan=1 rowspan=1 > 89C57F98-2FE5-4DC0-89C1-F3AD0CEFF2BE </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt disk in creation </td><td colspan=1 rowspan=1 > 89C57F98-2FE5-4DC0-89C1-5EC00CEFF2BE </td></tr>
+<tr> <td colspan=1 rowspan=1 > Block </td><td colspan=1 rowspan=1 > CAFECAFE-9B03-4F30-B4C6-B4B80CEFF106 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Block DB </td><td colspan=1 rowspan=1 > 30CD0809-C2B2-499C-8879-2D6B78529876 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Block write-ahead log </td><td colspan=1 rowspan=1 > 5CE17FCE-4087-4169-B7FF-056CC58473F9 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Lockbox for dm-crypt keys </td><td colspan=1 rowspan=1 > FB3AABF9-D25F-47CC-BF5E-721D1816496B </td></tr>
+<tr> <td colspan=1 rowspan=1 > Multipath OSD </td><td colspan=1 rowspan=1 > 4FBD7E29-8AE0-4982-BF9D-5A8D867AF560 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Multipath journal </td><td colspan=1 rowspan=1 > 45B0969E-8AE0-4982-BF9D-5A8D867AF560 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Multipath block </td><td colspan=1 rowspan=1 > CAFECAFE-8AE0-4982-BF9D-5A8D867AF560 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Multipath block </td><td colspan=1 rowspan=1 > 7F4A666A-16F3-47A2-8445-152EF4D03F6C </td></tr>
+<tr> <td colspan=1 rowspan=1 > Multipath block DB </td><td colspan=1 rowspan=1 > EC6D6385-E346-45DC-BE91-DA2A7C8B3261 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Multipath block write-ahead log </td><td colspan=1 rowspan=1 > 01B41E1B-002A-453C-9F17-88793989FF8F </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt block </td><td colspan=1 rowspan=1 > CAFECAFE-9B03-4F30-B4C6-5EC00CEFF106 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt block DB </td><td colspan=1 rowspan=1 > 93B0052D-02D9-4D8A-A43B-33A3EE4DFBC3 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt block write-ahead log </td><td colspan=1 rowspan=1 > 306E8683-4FE2-4330-B7C0-00A917C16966 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt LUKS journal </td><td colspan=1 rowspan=1 > 45B0969E-9B03-4F30-B4C6-35865CEFF106 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt LUKS block </td><td colspan=1 rowspan=1 > CAFECAFE-9B03-4F30-B4C6-35865CEFF106 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt LUKS block DB </td><td colspan=1 rowspan=1 > 166418DA-C469-4022-ADF4-B30AFD37F176 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt LUKS block write-ahead log </td><td colspan=1 rowspan=1 > 86A32090-3647-40B9-BBBD-38D8C573AA86 </td></tr>
+<tr> <td colspan=1 rowspan=1 > dm-crypt LUKS OSD </td><td colspan=1 rowspan=1 > 4FBD7E29-9D25-41B8-AFD0-35865CEFF05D </td></tr>
+<tr> <td colspan=1 rowspan=1 > OpenBSD </td><td colspan=1 rowspan=1 > Data partition </td><td colspan=1 rowspan=1 > 824CC7A0-36A8-11E3-890A-952519AD3F61 </td></tr>
+<tr> <td colspan=1 rowspan=1 > QNX </td><td colspan=1 rowspan=1 > Power-safe (QNX6) file system </td><td colspan=1 rowspan=1 > CEF5A9AD-73BC-4601-89F3-CDEEEEE321A1 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Plan 9 </td><td colspan=1 rowspan=1 > Plan 9 partition </td><td colspan=1 rowspan=1 > C91818F9-8025-47AF-89D2-F030D7000C2C </td></tr>
+<tr> <td colspan=1 rowspan=3 > VMware ESX </td><td colspan=1 rowspan=1 > vmkcore (coredump partition) </td><td colspan=1 rowspan=1 > 9D275380-40AD-11DB-BF97-000C2911D1B8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > VMFS filesystem partition </td><td colspan=1 rowspan=1 > AA31E02A-400F-11DB-9590-000C2911D1B8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > VMware Reserved </td><td colspan=1 rowspan=1 > 9198EFFC-31C0-11DB-8F78-000C2911D1B8 </td></tr>
+<tr> <td colspan=1 rowspan=16 > Android-IA </td><td colspan=1 rowspan=1 > Bootloader </td><td colspan=1 rowspan=1 > 2568845D-2332-4675-BC39-8FA5A4748D15 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Bootloader2 </td><td colspan=1 rowspan=1 > 114EAFFE-1552-4022-B26E-9B053604CF84 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Boot </td><td colspan=1 rowspan=1 > 49A4D17F-93A3-45C1-A0DE-F50B2EBE2599 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Recovery </td><td colspan=1 rowspan=1 > 4177C722-9E92-4AAB-8644-43502BFD5506 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Misc </td><td colspan=1 rowspan=1 > EF32A33B-A409-486C-9141-9FFB711F6266 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Metadata </td><td colspan=1 rowspan=1 > 20AC26BE-20B7-11E3-84C5-6CFDB94711E9 </td></tr>
+<tr> <td colspan=1 rowspan=1 > System </td><td colspan=1 rowspan=1 > 38F428E6-D326-425D-9140-6E0EA133647C </td></tr>
+<tr> <td colspan=1 rowspan=1 > Cache </td><td colspan=1 rowspan=1 > A893EF21-E428-470A-9E55-0668FD91A2D9 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Data </td><td colspan=1 rowspan=1 > DC76DDA9-5AC1-491C-AF42-A82591580C0D </td></tr>
+<tr> <td colspan=1 rowspan=1 > Persistent </td><td colspan=1 rowspan=1 > EBC597D0-2053-4B15-8B64-E0AAC75F4DB1 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Vendor </td><td colspan=1 rowspan=1 > C5A0AEEC-13EA-11E5-A1B1-001E67CA0C3C </td></tr>
+<tr> <td colspan=1 rowspan=1 > Config </td><td colspan=1 rowspan=1 > BD59408B-4514-490D-BF12-9878D963F378 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Factory </td><td colspan=1 rowspan=1 > 8F68CC74-C5E5-48DA-BE91-A0C8C15E9C80 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Factory (alt) </td><td colspan=1 rowspan=1 > 9FDAA6EF-4B3F-40D2-BA8D-BFF16BFB887B </td></tr>
+<tr> <td colspan=1 rowspan=1 > Fastboot / Tertiary </td><td colspan=1 rowspan=1 > 767941D0-2085-11E3-AD3B-6CFDB94711E9 </td></tr>
+<tr> <td colspan=1 rowspan=1 > OEM </td><td colspan=1 rowspan=1 > AC6D7924-EB71-4DF8-B48D-E267B27148FF </td></tr>
+<tr> <td colspan=1 rowspan=2 > Android 6.0+ ARM </td><td colspan=1 rowspan=1 > Android Meta </td><td colspan=1 rowspan=1 > 19A710A2-B3CA-11E4-B026-10604B889DCF </td></tr>
+<tr> <td colspan=1 rowspan=1 > Android EXT </td><td colspan=1 rowspan=1 > 193D1EA4-B3CA-11E4-B075-10604B889DCF </td></tr>
+<tr> <td colspan=1 rowspan=2 > Open Network Install Environment (ONIE) </td><td colspan=1 rowspan=1 > Boot </td><td colspan=1 rowspan=1 > 7412F7D5-A156-4B13-81DC-867174929325 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Config </td><td colspan=1 rowspan=1 > D4E6E2CD-4469-46F3-B5CB-1BFF57AFC149 </td></tr>
+<tr> <td colspan=1 rowspan=1 > PowerPC </td><td colspan=1 rowspan=1 > PReP boot </td><td colspan=1 rowspan=1 > 9E1A2D38-C612-4316-AA26-8B49521E5A8B </td></tr>
+<tr> <td colspan=1 rowspan=1 > freedesktop.org OSes (Linux, etc.) </td><td colspan=1 rowspan=1 > Shared boot loader configuration </td><td colspan=1 rowspan=1 > BC13C2FF-59E6-4262-A352-B275FD6F7172 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Atari TOS </td><td colspan=1 rowspan=1 > Basic data partition (GEM, BGM, F32) </td><td colspan=1 rowspan=1 > 734E5AFE-F61A-11E6-BC64-92361F002671 </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. The GUID for an EFI system partition is C12A7328-F81F-11D2-BA4B-00A0C93EC93B.<br> 2. The GUID for an EFI system partition is C12A7328-F81F-11D2-BA4B-00A0C93EC93B.<br> 3. The GUID for an EFI system partition is C12A7328-F81F-11D2-BA4B-00A0C93EC93B. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

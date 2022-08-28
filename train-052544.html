@@ -1,0 +1,31 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Master boot record</h2><br> <b>Section Title</b>: Sector layout <br><b>Table Section Text</b>: By convention, there are exactly four primary partition table entries in the MBR partition table scheme, although some operating systems and system tools extended this to five (Advanced Active Partitions (AAP) with PTS-DOS 6.60 and DR-DOS 7.07), eight (AST and NEC MS-DOS 3.x as well as Storage Dimensions SpeedStor), or even sixteen entries (with Ontrack Disk Manager). <br> <table>
+<tr> <th colspan=2 rowspan=1 > Address </th><th colspan=2 rowspan=2 > Description </th><th colspan=1 rowspan=2 > Size (bytes) </th></tr>
+<tr> <th colspan=1 rowspan=1 > Hex </th><th colspan=1 rowspan=1 > Dec </th></tr>
+<tr> <td colspan=1 rowspan=1 > +000hex </td><td colspan=1 rowspan=1 > +0 </td><td colspan=2 rowspan=1 > Bootstrap code area </td><td colspan=1 rowspan=1 > 446 </td></tr>
+<tr> <td colspan=1 rowspan=1 > +1BEhex </td><td colspan=1 rowspan=1 > +446 </td><td colspan=1 rowspan=1 > Partition entry №1 </td><td colspan=1 rowspan=4 > Partition table (for primary partitions) </td><td colspan=1 rowspan=1 > 16 </td></tr>
+<tr> <td colspan=1 rowspan=1 > +1CEhex </td><td colspan=1 rowspan=1 > +462 </td><td colspan=1 rowspan=1 > Partition entry №2 </td><td colspan=1 rowspan=1 > 16 </td></tr>
+<tr> <td colspan=1 rowspan=1 > +1DEhex </td><td colspan=1 rowspan=1 > +478 </td><td colspan=1 rowspan=1 > Partition entry №3 </td><td colspan=1 rowspan=1 > 16 </td></tr>
+<tr> <td colspan=1 rowspan=1 > +1EEhex </td><td colspan=1 rowspan=1 > +494 </td><td colspan=1 rowspan=1 > Partition entry №4 </td><td colspan=1 rowspan=1 > 16 </td></tr>
+<tr> <td colspan=1 rowspan=1 > +1FEhex </td><td colspan=1 rowspan=1 > +510 </td><td colspan=1 rowspan=1 > 55hex </td><td colspan=1 rowspan=2 > Boot signature </td><td colspan=1 rowspan=2 > 2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > +1FFhex </td><td colspan=1 rowspan=1 > +511 </td><td colspan=1 rowspan=1 > AAhex </td></tr>
+<tr> <th colspan=4 rowspan=1 > Total size: 446 + 4×16 + 2 </th><th class="highlighted"  colspan=1 rowspan=1 > 512 </th></tr>
+</table> <br> <h3>Sentence(s)</h3>1. The MBR consists of 512 bytes in the sector. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

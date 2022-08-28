@@ -1,0 +1,90 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>FFmpeg</h2><br> <b>Section Title</b>: Supported formats <br><b>Table Section Text</b>: In addition to FFV1 and Snow formats, which were created and developed from within FFmpeg, the project also supports the following formats: <br> <table>
+<tr> <th colspan=1 rowspan=1 > Group </th><th colspan=1 rowspan=1 > Format type </th><th colspan=1 rowspan=1 > Format name </th></tr>
+<tr> <td colspan=1 rowspan=4 > ISO/IEC/ITU-T </td><td class="highlighted"  colspan=1 rowspan=1 > Video </td><td class="highlighted"  colspan=1 rowspan=1 > MPEG-1 Part 2, H.261 (Px64), H.262/MPEG-2 Part 2, H.263, MPEG-4 Part 2, H.264/MPEG-4 AVC, HEVC/H.265 (MPEG-H Part 2), Motion JPEG, IEC DV video and CD+G </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > MP1, MP2, MP3, AAC, HE-AAC, MPEG-4 ALS, G.711 µ-law, G.711 A-law, G.721 (a.k.a. G.726 32k), G.722, G.722.2 (a.k.a. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > MPEG-4 Timed Text (a.k.a. 3GPP Timed Text) </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > JPEG, Lossless JPEG, JPEG-LS, JPEG 2000, PNG, CCITT G3 and CCITT G4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Alliance for Open Media </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > AV1 </td></tr>
+<tr> <td colspan=1 rowspan=1 > EIA </td><td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > EIA-608 </td></tr>
+<tr> <td colspan=1 rowspan=1 > CEA </td><td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > CEA-708 </td></tr>
+<tr> <td colspan=1 rowspan=3 > SMPTE </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > SMPTE 314M (a.k.a. DVCAM and DVCPRO), SMPTE 370M (a.k.a. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > SMPTE 302M </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > DPX </td></tr>
+<tr> <td colspan=1 rowspan=2 > ATSC/ETSI/DVB </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > Full Rate (GSM 06.10), AC-3 (Dolby Digital), Enhanced AC-3 (Dolby Digital Plus) and DTS Coherent Acoustics (a.k.a. DTS or DCA) </td></tr>
+<tr> <td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > DVB Subtitling (ETSI 300 743) </td></tr>
+<tr> <td colspan=1 rowspan=2 > DVD Forum/Dolby </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > MLP / Dolby TrueHD </td></tr>
+<tr> <td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > DVD-Video subtitles </td></tr>
+<tr> <td colspan=1 rowspan=1 > DTS, Inc/QDesign </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > DTS Coherent Acoustics (a.k.a. DTS or DCA), DTS Extended Surround (a.k.a. </td></tr>
+<tr> <td colspan=1 rowspan=1 > Blu-ray Disc Association </td><td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > PGS (Presentation Graphics Stream) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 3GPP </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > AMR-NB, AMR-WB (a.k.a. G.722.2) </td></tr>
+<tr> <td colspan=1 rowspan=1 > 3GPP2 </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > QCELP-8 (a.k.a. SmartRate or IS-96C), QCELP-13 (a.k.a. PureVoice or IS-733) and Enhanced Variable Rate Codec (EVRC. a.k.a. IS-127) </td></tr>
+<tr> <td colspan=1 rowspan=3 > World Wide Web Consortium </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Animated GIF </td></tr>
+<tr> <td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > WebVTT </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > GIF </td></tr>
+<tr> <td colspan=1 rowspan=1 > IETF </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > iLBC (via libilbc), Opus and Comfort noise </td></tr>
+<tr> <td colspan=1 rowspan=1 > International Voice Association </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > DSS-SP </td></tr>
+<tr> <td colspan=1 rowspan=1 > SAC </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > AVS video </td></tr>
+<tr> <td colspan=1 rowspan=4 > Microsoft </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Microsoft RLE, Microsoft Video 1, Cinepak, Indeo (v2, v3 and v5), Microsoft MPEG-4 v1, v2 and v3, Windows Media Video (WMV1, WMV2, WMV3/VC-1), WMV Screen and Mimic codec </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > Windows Media Audio (WMA1, WMA2, WMA Pro and WMA Lossless), XMA (XMA1 and XMA2), MS-GSM and MS-ADPCM </td></tr>
+<tr> <td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > SAMI </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > Windows Bitmap, WMV Image (WMV9 Image and WMV9 Image v2) and DirectDraw Surface </td></tr>
+<tr> <td colspan=1 rowspan=1 > Interactive Multimedia Association </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > IMA ADPCM </td></tr>
+<tr> <td colspan=1 rowspan=2 > Digital Video Interactive </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > RTV 2.1 (Intel Indeo 2) </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > DVI4 audio codec </td></tr>
+<tr> <td colspan=1 rowspan=3 > RealNetworks </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > RealVideo Fractal Codec (a.k.a. Iterated Systems ClearVideo), 1, 2, 3 and 4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > RealAudio v1 – v10 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > RealText </td></tr>
+<tr> <td colspan=1 rowspan=2 > Apple </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Cinepak (Apple Compact Video), ProRes, Sorenson 3 Codec, QuickTime Animation (Apple Animation), QuickTime Graphics (Apple Graphics), Apple Video, Apple Intermediate Codec and Pixlet </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > ALAC </td></tr>
+<tr> <td colspan=1 rowspan=2 > Adobe Flash Player (SWF) </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Screen video, Screen video 2, Sorenson Spark and VP6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > Adobe SWF ADPCM and Nellymoser Asao </td></tr>
+<tr> <td colspan=1 rowspan=1 > Aldus / Adobe </td><td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > TIFF and PSD </td></tr>
+<tr> <td colspan=1 rowspan=3 > Xiph.Org </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Theora </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > Speex (via libspeex), Vorbis, Opus and FLAC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > Ogg Writ </td></tr>
+<tr> <td colspan=1 rowspan=1 > Sony </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > Adaptive Transform Acoustic Coding (ATRAC1, ATRAC3, ATRAC3Plus and ATRAC9) and PSX ADPCM </td></tr>
+<tr> <td colspan=1 rowspan=1 > NTT </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > TwinVQ </td></tr>
+<tr> <td colspan=1 rowspan=3 > On2 / GIPS / Google </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Duck TrueMotion 1, Duck TrueMotion 2, Duck TrueMotion 2.0 Real Time, VP3, VP5, VP6, VP7, VP8, VP9 and animated WebP </td></tr>
+<tr> <td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > DK ADPCM Audio 3/4, On2 AVC and iLBC (via libilbc) </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > WebP </td></tr>
+<tr> <td colspan=1 rowspan=1 > RAD Game Tools </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Smacker video and Bink video </td></tr>
+<tr> <td colspan=1 rowspan=1 > DSP Group </td><td colspan=1 rowspan=1 > Audio </td><td colspan=1 rowspan=1 > Truespeech </td></tr>
+<tr> <td colspan=1 rowspan=1 > RenderWare </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > TXD </td></tr>
+<tr> <td colspan=1 rowspan=1 > Netpbm </td><td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > PBM, PGM, PPM, PNM and PAM </td></tr>
+<tr> <td colspan=1 rowspan=1 > MIT/X Consortium/The Open Group </td><td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > XBM, XPM and xwd </td></tr>
+<tr> <td colspan=1 rowspan=2 > Silicon Graphics </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Silicon Graphics RLE 8-bit video, Silicon Graphics MVC1/2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > Silicon Graphics Image </td></tr>
+<tr> <td colspan=1 rowspan=1 > Oracle/Sun Microsystems </td><td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > Sun Raster </td></tr>
+<tr> <td colspan=1 rowspan=1 > IBM </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > IBM UltiMotion </td></tr>
+<tr> <td colspan=1 rowspan=2 > Avid Technology / Truevision </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Avid 1:1x, Avid Meridien, Avid DNxHD and DNxHR </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > Targa </td></tr>
+<tr> <td colspan=1 rowspan=2 > Autodesk / Alias </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Autodesk Animator Studio Codec and FLIC </td></tr>
+<tr> <td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > Alias PIX </td></tr>
+<tr> <td colspan=1 rowspan=1 > Grass Valley / Canopus </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > HQ, HQA, HQX and Lossless </td></tr>
+<tr> <td colspan=1 rowspan=1 > NewTek </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > SpeedHQ </td></tr>
+<tr> <td colspan=1 rowspan=1 > Industrial Light & Magic / Lucasfilm </td><td colspan=1 rowspan=1 > Image </td><td colspan=1 rowspan=1 > OpenEXR </td></tr>
+<tr> <td colspan=1 rowspan=1 > Mozilla Corporation </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > APNG </td></tr>
+<tr> <td colspan=1 rowspan=1 > Matrox </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > Matrox Uncompressed SD (M101) / HD (M102) </td></tr>
+<tr> <td colspan=1 rowspan=1 > AMD/ATI </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > ATI VCR1/VCR2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Asus </td><td colspan=1 rowspan=1 > Video </td><td colspan=1 rowspan=1 > ASUS V1/V2 codec </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spruce Technologies </td><td colspan=1 rowspan=1 > Subtitle </td><td colspan=1 rowspan=1 > Spruce subtitle (STL) </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. H.264 is supported as video codec in FFmpeg. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

@@ -1,0 +1,173 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>PowerVR</h2><br> <b>Section Title</b>: Implementations <br><b>Table Section Text</b>: The PowerVR GPU variants can be found in the following systems on chips (SoC): <br> <table>
+<tr> <th colspan=1 rowspan=1 > Vendor </th><th colspan=1 rowspan=1 > Date </th><th colspan=1 rowspan=1 > SOC name </th><th colspan=1 rowspan=1 > PowerVR chipset </th><th colspan=1 rowspan=1 > Frequency </th><th colspan=1 rowspan=1 > GFLOPS (FP16) </th></tr>
+<tr> <td colspan=1 rowspan=15 > Texas Instruments </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3420 </td><td colspan=1 rowspan=15 > SGX530 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3430 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3440 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3450 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3515 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3517 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3530 </td><td colspan=1 rowspan=1 > 110 MHz </td><td colspan=1 rowspan=1 > 0.88 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3620 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3621 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3630 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > OMAP 3640 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Sitara AM335x </td><td colspan=1 rowspan=1 > 200 MHz </td><td colspan=1 rowspan=1 > 1.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Sitara AM3715 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Sitara AM3891 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > DaVinci DM3730 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 > Texas Instruments </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Integra C6A8168 </td><td colspan=1 rowspan=1 > SGX530 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 > NEC </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > EMMA Mobile/EV2 </td><td colspan=1 rowspan=1 > SGX530 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=2 > Renesas </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SH-Mobile G3 </td><td colspan=1 rowspan=2 > SGX530 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SH-Navi3 (SH7776) </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=2 > Sigma Designs </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SMP8656 </td><td colspan=1 rowspan=2 > SGX530 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SMP8910 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 > Texas Instruments </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > DM3730 </td><td colspan=1 rowspan=1 > SGX530 </td><td colspan=1 rowspan=1 > 200 MHz </td><td colspan=1 rowspan=1 > 1.6 </td></tr>
+<tr> <td colspan=1 rowspan=3 > MediaTek </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT6513 </td><td colspan=1 rowspan=3 > SGX531 </td><td colspan=1 rowspan=3 > 281 MHz </td><td colspan=1 rowspan=3 > 2.25 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 2010 </td><td colspan=1 rowspan=1 > MT6573 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 2012 </td><td colspan=1 rowspan=1 > MT6575M </td></tr>
+<tr> <td colspan=1 rowspan=3 > Trident </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > PNX8481 </td><td colspan=1 rowspan=3 > SGX531 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > PNX8491 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > HiDTV PRO-SX5 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=9 > MediaTek </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT6515 </td><td colspan=1 rowspan=9 > SGX531 </td><td colspan=1 rowspan=9 > 522 MHz </td><td colspan=1 rowspan=9 > 4.2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 2011 </td><td colspan=1 rowspan=1 > MT6575 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT6517 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT6517T </td></tr>
+<tr> <td colspan=1 rowspan=1 > 2012 </td><td colspan=1 rowspan=1 > MT6577 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT6577T </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8317 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8317T </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8377 </td></tr>
+<tr> <td colspan=1 rowspan=2 > NEC </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > NaviEngine EC-4260 </td><td colspan=1 rowspan=2 > SGX535 </td><td colspan=1 rowspan=2 > ? </td><td colspan=1 rowspan=2 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > NaviEngine EC-4270 </td></tr>
+<tr> <td colspan=1 rowspan=8 > Intel </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CE 3100 (Canmore) </td><td colspan=1 rowspan=8 > SGX535 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SCH US15/W/L (Poulsbo) </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CE4100 (Sodaville) </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CE4110 (Sodaville) </td><td colspan=1 rowspan=2 > 200 MHz </td><td colspan=1 rowspan=2 > 1.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CE4130 (Sodaville) </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CE4150 (Sodaville) </td><td colspan=1 rowspan=3 > 400 MHz </td><td colspan=1 rowspan=3 > 3.2 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CE4170 (Sodaville) </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CE4200 (Groveland) </td></tr>
+<tr> <td colspan=1 rowspan=1 > Samsung </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > APL0298C05 </td><td colspan=1 rowspan=1 > SGX535 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=2 > Apple </td><td colspan=1 rowspan=2 > April 3, 2010 </td><td colspan=1 rowspan=1 > Apple A4 (iPhone 4) </td><td colspan=1 rowspan=2 > SGX535 </td><td colspan=1 rowspan=1 > 200 MHz </td><td colspan=1 rowspan=1 > 1.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple A4 (iPad) </td><td colspan=1 rowspan=1 > 250 MHz </td><td colspan=1 rowspan=1 > 2.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Ambarella </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > iOne </td><td colspan=1 rowspan=1 > SGX540 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=3 > Renesas </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SH-Mobile G4 </td><td colspan=1 rowspan=3 > SGX540 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > SH-Mobile APE4 (R8A73720) </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > R-Car E2 (R8A7794) </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 > Ingenic Semiconductor </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > JZ4780 </td><td colspan=1 rowspan=1 > SGX540 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=4 > Samsung </td><td colspan=1 rowspan=1 > 2010 </td><td colspan=1 rowspan=1 > Exynos 3110 </td><td colspan=1 rowspan=4 > SGX540 </td><td colspan=1 rowspan=3 > 200 MHz </td><td colspan=1 rowspan=3 > 3.2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 2010 </td><td colspan=1 rowspan=1 > S5PC110 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > S5PC111 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > S5PV210 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=2 > Texas Instruments </td><td colspan=1 rowspan=2 > Q1 2011 </td><td colspan=1 rowspan=1 > OMAP 4430 </td><td colspan=1 rowspan=2 > SGX540 </td><td colspan=1 rowspan=1 > 307 MHz </td><td colspan=1 rowspan=1 > 4.9 </td></tr>
+<tr> <td colspan=1 rowspan=1 > OMAP 4460 </td><td colspan=1 rowspan=1 > 384 MHz </td><td colspan=1 rowspan=1 > 6.1 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Intel </td><td colspan=1 rowspan=1 > Q1 2013 </td><td colspan=1 rowspan=1 > Atom Z2420 </td><td colspan=1 rowspan=1 > SGX540 </td><td colspan=1 rowspan=1 > 400 MHz </td><td colspan=1 rowspan=1 > 6.4 </td></tr>
+<tr> <td colspan=1 rowspan=3 > Actions Semiconductor </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > ATM7021 </td><td colspan=1 rowspan=3 > SGX540 </td><td colspan=1 rowspan=3 > 500 MHz </td><td colspan=1 rowspan=3 > 8.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > ATM7021A </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > ATM7029B </td></tr>
+<tr> <td colspan=1 rowspan=1 > Rockchip </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > RK3168 </td><td colspan=1 rowspan=1 > SGX540 </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 9.6 </td></tr>
+<tr> <td colspan=1 rowspan=3 > Apple </td><td colspan=1 rowspan=1 > November 13, 2014 </td><td colspan=1 rowspan=1 > Apple S1 (Apple Watch Series 0) </td><td colspan=1 rowspan=1 > SGX543 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 > March 11, 2011 </td><td colspan=1 rowspan=1 > Apple A5 (iPhone 4S, iPod touch 5th) </td><td colspan=1 rowspan=2 > SGX543 MP2 </td><td colspan=1 rowspan=1 > 200 MHz </td><td colspan=1 rowspan=1 > 12.8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > March 2012 </td><td colspan=1 rowspan=1 > Apple A5 (iPad 2, iPad mini) </td><td colspan=1 rowspan=1 > 250 MHz </td><td colspan=1 rowspan=1 > 16.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > MediaTek </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT5327 </td><td colspan=1 rowspan=1 > SGX543 MP2 </td><td colspan=1 rowspan=1 > 400 MHz </td><td colspan=1 rowspan=1 > 25.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Renesas </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > R-Car H1 (R8A77790) </td><td colspan=1 rowspan=1 > SGX543 MP2 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=2 > Apple </td><td colspan=1 rowspan=1 > September 12, 2012 </td><td colspan=1 rowspan=1 > Apple A6 (iPhone 5, iPhone 5C) </td><td colspan=1 rowspan=1 > SGX543 MP3 </td><td colspan=1 rowspan=2 > 250 MHz </td><td colspan=1 rowspan=1 > 24.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > March 7, 2012 </td><td colspan=1 rowspan=1 > Apple A5X (iPad 3rd) </td><td colspan=1 rowspan=1 > SGX543 MP4 </td><td colspan=1 rowspan=1 > 32.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Sony </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > CXD53155GG (PS Vita) </td><td colspan=1 rowspan=1 > SGX543 MP4+ </td><td colspan=1 rowspan=1 > 41-222 MHz </td><td colspan=1 rowspan=1 > 5.248-28.416 </td></tr>
+<tr> <td colspan=1 rowspan=4 > ST-Ericsson </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Nova A9540 </td><td colspan=1 rowspan=4 > SGX544 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > NovaThor L9540 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > NovaThor L8540 </td><td colspan=1 rowspan=1 > 500 MHz </td><td colspan=1 rowspan=1 > 16 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > NovaThor L8580 </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 19.2 </td></tr>
+<tr> <td colspan=1 rowspan=7 > MediaTek </td><td colspan=1 rowspan=1 > July 2013 </td><td colspan=1 rowspan=1 > MT6589M </td><td colspan=1 rowspan=7 > SGX544 </td><td colspan=1 rowspan=3 > 156 MHz </td><td colspan=1 rowspan=3 > 5 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8117 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8121 </td></tr>
+<tr> <td colspan=1 rowspan=1 > March 2013 </td><td colspan=1 rowspan=1 > MT6589 </td><td colspan=1 rowspan=2 > 286 MHz </td><td colspan=1 rowspan=2 > 9.2 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8389 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8125 </td><td colspan=1 rowspan=1 > 300 MHz </td><td colspan=1 rowspan=1 > 9.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > July 2013 </td><td colspan=1 rowspan=1 > MT6589T </td><td colspan=1 rowspan=1 > 357 MHz </td><td colspan=1 rowspan=1 > 11.4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Texas Instruments </td><td colspan=1 rowspan=1 > Q2 2012 </td><td colspan=1 rowspan=1 > OMAP 4470 </td><td colspan=1 rowspan=1 > SGX544 </td><td colspan=1 rowspan=1 > 384 MHz </td><td colspan=1 rowspan=1 > 13.8 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Broadcom </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Broadcom M320 </td><td colspan=1 rowspan=2 > SGX544 </td><td colspan=1 rowspan=2 > ? </td><td colspan=1 rowspan=2 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Broadcom M340 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Actions Semiconductor </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > ATM7039 </td><td colspan=1 rowspan=1 > SGX544 </td><td colspan=1 rowspan=1 > 450 MHz </td><td colspan=1 rowspan=1 > 16.2 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Allwinner </td><td colspan=1 rowspan=1 >  </td><td class="highlighted"  colspan=1 rowspan=1 > Allwinner A31 </td><td class="highlighted"  colspan=1 rowspan=2 > SGX544 MP2 </td><td colspan=1 rowspan=2 > 300 MHz </td><td colspan=1 rowspan=2 > 19.2 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Allwinner A31S </td></tr>
+<tr> <td colspan=1 rowspan=3 > Intel </td><td colspan=1 rowspan=3 > Q2 2013 </td><td colspan=1 rowspan=1 > Atom Z2520 </td><td colspan=1 rowspan=3 > SGX544 MP2 </td><td colspan=1 rowspan=1 > 300 MHz </td><td colspan=1 rowspan=1 > 21.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Atom Z2560 </td><td colspan=1 rowspan=1 > 400 MHz </td><td colspan=1 rowspan=1 > 25.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Atom Z2580 </td><td colspan=1 rowspan=1 > 533 MHz </td><td colspan=1 rowspan=1 > 34.1 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Texas Instruments </td><td colspan=1 rowspan=2 > Q2 2013 </td><td colspan=1 rowspan=1 > OMAP 5430 </td><td colspan=1 rowspan=2 > SGX544 MP2 </td><td colspan=1 rowspan=2 > 533 MHz </td><td colspan=1 rowspan=2 > 34.1 </td></tr>
+<tr> <td colspan=1 rowspan=1 > OMAP 5432 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Allwinner </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Allwinner A83T </td><td colspan=1 rowspan=2 > SGX544 MP2 </td><td colspan=1 rowspan=2 > 700 MHz </td><td colspan=1 rowspan=2 > 44.8 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Allwinner H8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Samsung </td><td colspan=1 rowspan=1 > Q2 2013 </td><td colspan=1 rowspan=1 > Exynos 5410 </td><td colspan=1 rowspan=1 > SGX544 MP3 </td><td colspan=1 rowspan=1 > 533 MHz </td><td colspan=1 rowspan=1 > 51.1 </td></tr>
+<tr> <td colspan=1 rowspan=11 > Intel </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom Z2460 </td><td colspan=1 rowspan=11 > SGX545 </td><td colspan=1 rowspan=2 > 533 MHz </td><td colspan=1 rowspan=2 > 8.5 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom Z2760 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5310 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5315 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5318 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5320 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5328 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5335 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5338 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5343 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Atom CE5348 </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple </td><td colspan=1 rowspan=1 > October 23, 2012 </td><td colspan=1 rowspan=1 > Apple A6X (iPad 4th) </td><td colspan=1 rowspan=1 > SGX554 MP4 </td><td colspan=1 rowspan=1 > 300 MHz </td><td colspan=1 rowspan=1 > 76.8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple </td><td colspan=1 rowspan=1 > September, 2016 </td><td colspan=1 rowspan=1 > Apple S1P (Apple Watch Series 1), Apple S2 (Apple Watch Series 2) </td><td colspan=1 rowspan=1 > Series6 (G6050 ?) </td><td colspan=1 rowspan=1 > ? </td><td colspan=1 rowspan=1 > ? </td></tr>
+<tr> <td colspan=1 rowspan=1 > Rockchip </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > RK3368 </td><td colspan=1 rowspan=1 > G6110 </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 38.4 </td></tr>
+<tr> <td colspan=1 rowspan=6 > MediaTek </td><td colspan=1 rowspan=1 > Q1 2014 </td><td colspan=1 rowspan=1 > MT6595M </td><td colspan=1 rowspan=6 > G6200 (2 Clusters) </td><td colspan=1 rowspan=2 > 450 MHz </td><td colspan=1 rowspan=2 > 57.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > MT8135 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Q4 2014 </td><td colspan=1 rowspan=1 > Helio X10 (MT6795M) </td><td colspan=1 rowspan=1 > 550 MHz </td><td colspan=1 rowspan=1 > 70.4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Helio X10 (MT6795T) </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=2 > Q1 2014 </td><td colspan=1 rowspan=1 > MT6595 </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 76.8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > MT6795 </td><td colspan=1 rowspan=1 > 700 MHz </td><td colspan=1 rowspan=1 > 89.5 </td></tr>
+<tr> <td colspan=1 rowspan=1 > LG </td><td colspan=1 rowspan=1 > Q1 2012 </td><td colspan=1 rowspan=1 > LG H13 </td><td colspan=1 rowspan=1 > G6200 (2 Clusters) </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 76.8 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Allwinner </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Allwinner A80 </td><td colspan=1 rowspan=2 > G6230 (2 Clusters) </td><td colspan=1 rowspan=2 > 533 MHz </td><td colspan=1 rowspan=2 > 68.0 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > Allwinner A80T </td></tr>
+<tr> <td colspan=1 rowspan=1 > Actions Semiconductor </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > ATM9009 </td><td colspan=1 rowspan=1 > G6230 (2 Clusters) </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 76.8 </td></tr>
+<tr> <td colspan=1 rowspan=2 > MediaTek </td><td colspan=1 rowspan=1 > Q1 2015 </td><td colspan=1 rowspan=1 > MT8173 </td><td colspan=1 rowspan=2 > GX6250 (2 Clusters) </td><td colspan=1 rowspan=1 > 700 MHz </td><td colspan=1 rowspan=1 > 89.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Q1 2016 </td><td colspan=1 rowspan=1 > MT8176 </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 76.8 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Intel </td><td colspan=1 rowspan=2 > Q1 2014 </td><td colspan=1 rowspan=1 > Atom Z3460 </td><td colspan=1 rowspan=2 > G6400 (4 Clusters) </td><td colspan=1 rowspan=2 > 533 MHz </td><td colspan=1 rowspan=2 > 136.4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Atom Z3480 </td></tr>
+<tr> <td colspan=1 rowspan=2 > Renesas </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > R-Car H2 (R8A7790x) </td><td colspan=1 rowspan=1 > G6400 (4 Clusters) </td><td colspan=1 rowspan=2 > 600 MHz </td><td colspan=1 rowspan=1 > 153.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 > R-Car H3 (R8A7795) </td><td colspan=1 rowspan=1 > GX6650 (6 Clusters) </td><td colspan=1 rowspan=1 > 230.4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple </td><td colspan=1 rowspan=1 > September 10, 2013 </td><td colspan=1 rowspan=1 > Apple A7 (iPhone 5S, iPad Air, iPad mini 2, iPad mini 3) </td><td colspan=1 rowspan=1 > G6430 (4 Clusters) </td><td colspan=1 rowspan=1 > 450 MHz </td><td colspan=1 rowspan=1 > 115.2 </td></tr>
+<tr> <td colspan=1 rowspan=4 > Intel </td><td colspan=1 rowspan=2 > Q2 2014 </td><td colspan=1 rowspan=1 > Atom Z3530 </td><td colspan=1 rowspan=4 > G6430 (4 Clusters) </td><td colspan=1 rowspan=1 > 457 MHz </td><td colspan=1 rowspan=1 > 117 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Atom Z3560 </td><td colspan=1 rowspan=3 > 533 MHz </td><td colspan=1 rowspan=3 > 136.4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Q3 2014 </td><td colspan=1 rowspan=1 > Atom Z3570 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Q2 2014 </td><td colspan=1 rowspan=1 > Atom Z3580 </td></tr>
+<tr> <td colspan=1 rowspan=5 > Apple </td><td colspan=1 rowspan=1 > September 9, 2014 </td><td colspan=1 rowspan=1 > Apple A8 (iPhone 6 / 6 Plus, iPad mini 4, Apple TV 4th, iPod Touch 6th) </td><td colspan=1 rowspan=1 > GX6450 (4 Clusters) </td><td colspan=1 rowspan=2 > 533 MHz </td><td colspan=1 rowspan=1 > 136.4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > October 16, 2014 </td><td colspan=1 rowspan=1 > Apple A8X (iPad Air 2) </td><td colspan=1 rowspan=1 > GX6850 (8 Clusters) </td><td colspan=1 rowspan=1 > 272.9 </td></tr>
+<tr> <td colspan=1 rowspan=2 > September 9, 2015 </td><td colspan=1 rowspan=1 > Apple A9 (iPhone 6S / 6S Plus, iPhone SE, iPad 7th) </td><td colspan=1 rowspan=1 > Series7XT GT7600 (6 Clusters) </td><td colspan=1 rowspan=1 > 600 MHz </td><td colspan=1 rowspan=1 > 230.4 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple A9X (iPad Pro 9.7, iPad Pro 12.9 1st) </td><td colspan=1 rowspan=1 > Series7XT GT7800 (12 Clusters) </td><td colspan=1 rowspan=1 > >652 MHz </td><td colspan=1 rowspan=1 > >500 </td></tr>
+<tr> <td colspan=1 rowspan=1 > September 7, 2016 </td><td colspan=1 rowspan=1 > Apple A10 Fusion (iPhone 7 / 7 Plus & iPad 8th) </td><td colspan=1 rowspan=1 > Series7XT GT7600 Plus (6 Clusters) </td><td colspan=1 rowspan=1 > 900 MHz </td><td colspan=1 rowspan=1 > 345.6 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spreadtrum </td><td colspan=1 rowspan=1 > 2017 </td><td colspan=1 rowspan=1 > SC9861G-IA </td><td colspan=1 rowspan=1 > Series7XT GT7200 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > MediaTek </td><td colspan=1 rowspan=1 > Q1 2017 </td><td colspan=1 rowspan=1 > Helio X30 (MT6799) </td><td colspan=1 rowspan=1 > Series7XT GT7400 Plus (4 Clusters) </td><td colspan=1 rowspan=1 > 800 MHz </td><td colspan=1 rowspan=1 > 204.8 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Apple </td><td colspan=1 rowspan=1 > June 5, 2017 </td><td colspan=1 rowspan=1 > Apple A10X (iPad Pro 10.5, iPad Pro 12.9 2nd, Apple TV 4K) </td><td colspan=1 rowspan=1 > Series7XT GT7600 Plus (12 Clusters) </td><td colspan=1 rowspan=1 > >912 MHz </td><td colspan=1 rowspan=1 > >700 </td></tr>
+<tr> <td colspan=1 rowspan=1 > Socionext </td><td colspan=1 rowspan=1 > 2017 </td><td colspan=1 rowspan=1 > SC1810 </td><td colspan=1 rowspan=1 > Series8XE </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Synaptics </td><td colspan=1 rowspan=1 > 2017 </td><td colspan=1 rowspan=1 > Berlin BG5CT </td><td colspan=1 rowspan=1 > Series8XE GE8310 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=4 > Mediatek </td><td colspan=1 rowspan=2 > 2017 </td><td colspan=1 rowspan=1 > MT6739 </td><td colspan=1 rowspan=1 > Series8XE GE8100 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > MT8167 </td><td colspan=1 rowspan=1 > Series8XE GE8300 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=2 > 2018 </td><td colspan=1 rowspan=1 > Helio P22 </td><td colspan=1 rowspan=1 > Series8XE GE8320 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Helio A22 </td><td colspan=1 rowspan=1 > Series8XE GE8320 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Renesas </td><td colspan=1 rowspan=1 > 2017 </td><td colspan=1 rowspan=1 > R-Car D3 (R8A77995) </td><td colspan=1 rowspan=1 > Series8XE GE8300 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Spreadtrum </td><td colspan=1 rowspan=1 > 2018 </td><td colspan=1 rowspan=1 > SC9863A </td><td colspan=1 rowspan=1 > Series8XE GE8322 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Mediatek </td><td colspan=1 rowspan=1 > 2018 </td><td colspan=1 rowspan=1 > Helio P90 </td><td colspan=1 rowspan=1 > Series9XM GM9446 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. The Allwinner A31 features the SGX544 MP2. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

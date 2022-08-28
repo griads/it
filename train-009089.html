@@ -1,0 +1,37 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Post-quantum cryptography</h2><br> <b>Section Title</b>: Comparison <br><b>Table Section Text</b>: One common characteristic of many post-quantum cryptography algorithms is that they require larger key sizes than commonly used "pre-quantum" public key algorithms. <br> <table>
+<tr> <th colspan=1 rowspan=1 > Algorithm </th><th colspan=1 rowspan=1 > Type </th><th colspan=1 rowspan=1 > Public Key </th><th colspan=1 rowspan=1 > Private Key </th><th colspan=1 rowspan=1 > Signature </th></tr>
+<tr> <td colspan=1 rowspan=1 > NTRU Encrypt </td><td colspan=1 rowspan=1 > Lattice </td><td class="highlighted"  colspan=1 rowspan=1 > 6130 B </td><td colspan=1 rowspan=1 > 6743 B </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Streamlined NTRU Prime </td><td colspan=1 rowspan=1 > Lattice </td><td colspan=1 rowspan=1 > 1232 B </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Rainbow </td><td colspan=1 rowspan=1 > Multivariate </td><td colspan=1 rowspan=1 > 124 KB </td><td colspan=1 rowspan=1 > 95 KB </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > SPHINCS </td><td colspan=1 rowspan=1 > Hash Signature </td><td colspan=1 rowspan=1 > 1 KB </td><td colspan=1 rowspan=1 > 1 KB </td><td colspan=1 rowspan=1 > 41 KB </td></tr>
+<tr> <td colspan=1 rowspan=1 > SPHINCS+ </td><td colspan=1 rowspan=1 > Hash Signature </td><td colspan=1 rowspan=1 > 32 B </td><td colspan=1 rowspan=1 > 64 B </td><td colspan=1 rowspan=1 > 8 KB </td></tr>
+<tr> <td colspan=1 rowspan=1 > BLISS-II </td><td colspan=1 rowspan=1 > Lattice </td><td colspan=1 rowspan=1 > 7 KB </td><td colspan=1 rowspan=1 > 2 KB </td><td colspan=1 rowspan=1 > 5 KB </td></tr>
+<tr> <td colspan=1 rowspan=1 > GLP-Variant GLYPH Signature </td><td colspan=1 rowspan=1 > Ring-LWE </td><td colspan=1 rowspan=1 > 2 KB </td><td colspan=1 rowspan=1 > 0.4 KB </td><td colspan=1 rowspan=1 > 1.8 KB </td></tr>
+<tr> <td colspan=1 rowspan=1 > New Hope </td><td colspan=1 rowspan=1 > Ring-LWE </td><td colspan=1 rowspan=1 > 2 KB </td><td colspan=1 rowspan=1 > 2 KB </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Goppa-based McEliece </td><td colspan=1 rowspan=1 > Code-based </td><td colspan=1 rowspan=1 > 1 MB </td><td colspan=1 rowspan=1 > 11.5 KB </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Random Linear Code based encryption </td><td colspan=1 rowspan=1 > RLCE </td><td colspan=1 rowspan=1 > 115 KB </td><td colspan=1 rowspan=1 > 3 KB </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > Quasi-cyclic MDPC-based McEliece </td><td colspan=1 rowspan=1 > Code-based </td><td colspan=1 rowspan=1 > 1232 B </td><td colspan=1 rowspan=1 > 2464 B </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > SIDH </td><td colspan=1 rowspan=1 > Isogeny </td><td colspan=1 rowspan=1 > 751 B </td><td colspan=1 rowspan=1 > 48 B </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > SIDH (compressed keys) </td><td colspan=1 rowspan=1 > Isogeny </td><td colspan=1 rowspan=1 > 564 B </td><td colspan=1 rowspan=1 > 48 B </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > 3072-bit Discrete Log </td><td colspan=1 rowspan=1 > not PQC </td><td colspan=1 rowspan=1 > 384 B </td><td colspan=1 rowspan=1 > 32 B </td><td colspan=1 rowspan=1 > 96 B </td></tr>
+<tr> <td colspan=1 rowspan=1 > 256-bit Elliptic Curve </td><td colspan=1 rowspan=1 > not PQC </td><td colspan=1 rowspan=1 > 32 B </td><td colspan=1 rowspan=1 > 32 B </td><td colspan=1 rowspan=1 > 65 B </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. Post-quantum cryptography results in a public key of 6130 bits. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

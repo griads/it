@@ -1,0 +1,174 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>DB2 SQL return codes</h2><br> <b>Section Title</b>: Negative values (Errors) <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <td colspan=1 rowspan=1 > 007 </td><td colspan=1 rowspan=1 > The specified 'character' is not a valid character in SQL statements. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 010 </td><td colspan=1 rowspan=1 > THE string constant beginning with string is not terminated properly. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 029 </td><td colspan=1 rowspan=1 > INTO Clause required. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 060 </td><td colspan=1 rowspan=1 > INVALID type SPECIFICATION : spec </td></tr>
+<tr> <td colspan=1 rowspan=1 > 084 </td><td colspan=1 rowspan=1 > Unacceptable SQL statement. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 101 </td><td colspan=1 rowspan=1 > The statement is too long or too complex. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 102 </td><td colspan=1 rowspan=1 > String constant is too long. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 103 </td><td colspan=1 rowspan=1 > String constant is too long. Max is 128 characters. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 104 </td><td colspan=1 rowspan=1 > Illegal symbol encountered in the SQL statement. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 105 </td><td colspan=1 rowspan=1 > String constant is too long. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 117 </td><td colspan=1 rowspan=1 > The number of values in the INSERT does not match the number of columns. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 122 </td><td colspan=1 rowspan=1 > Column or Expression in the Select List is not valid </td></tr>
+<tr> <td colspan=1 rowspan=1 > 156 </td><td colspan=1 rowspan=1 > Invalid syntax near keyword. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 180 </td><td colspan=1 rowspan=1 > Bad data in Date/Time/Timestamp. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 181 </td><td colspan=1 rowspan=1 > Bad data in Date/Time/Timestamp. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 188 </td><td colspan=1 rowspan=1 > The host variable in a DESCRIBE statement is not a valid string representation of a name. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 199 </td><td colspan=1 rowspan=1 > Illegal use of the specified keyword. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 203 </td><td colspan=1 rowspan=1 > A REFERENCE TO COLUMN column-name IS AMBIGUOUS </td></tr>
+<tr> <td colspan=1 rowspan=1 > 204 </td><td colspan=1 rowspan=1 > Object not defined to DB2. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 205 </td><td colspan=1 rowspan=1 > Column name not in table. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 206 </td><td colspan=1 rowspan=1 > Column does not exist in any table of the SELECT. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 207 </td><td colspan=1 rowspan=1 > Invalid column name. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 208 </td><td colspan=1 rowspan=1 > THE ORDER BY CLAUSE IS INVALID BECAUSE COLUMN column-name IS NOT PART OF THE RESULT TABLE </td></tr>
+<tr> <td colspan=1 rowspan=1 > 209 </td><td colspan=1 rowspan=1 > Ambiguous column name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 216 </td><td colspan=1 rowspan=1 > Not the same number of expressions on both sides of the comparison in a SELECT. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 224 </td><td colspan=1 rowspan=1 > FETCH cannot make an INSENSITIVE cursor SENSITIVE. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 229 </td><td colspan=1 rowspan=1 > The locale specified in a SET LOCALE statement was not found. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 257 </td><td colspan=1 rowspan=1 > Implicit conversion in datatype is not allowed. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 302 </td><td colspan=1 rowspan=1 > THE VALUE OF INPUT VARIABLE OR PARAMETER NUMBER position-number IS INVALID OR TOO LARGE FOR THE TARGET COLUMN OR THE TARGET VALUE </td></tr>
+<tr> <td colspan=1 rowspan=1 > 303 </td><td colspan=1 rowspan=1 > A VALUE CANNOT BE ASSIGNED TO OUTPUT HOST VARIABLE NUMBER position-number BECAUSE THE DATA TYPES ARE NOT COMPARABLE </td></tr>
+<tr> <td colspan=1 rowspan=1 > 305 </td><td colspan=1 rowspan=1 > Null indicator needed. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 311 </td><td colspan=1 rowspan=1 > Varchar, insert or update. -LEN field with the right data length not set. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 401 </td><td colspan=1 rowspan=1 > The data types of the operands of an operation are not compatible. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 404 </td><td colspan=1 rowspan=1 > The Sql Statement specified contains a String that is too long. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 407 </td><td colspan=1 rowspan=1 > AN UPDATE, INSERT, OR SET VALUE IS NULL, BUT THE OBJECT COLUMN column-name CANNOT CONTAIN NULL VALUES </td></tr>
+<tr> <td colspan=1 rowspan=1 > 408 </td><td colspan=1 rowspan=1 > A value is not compatible with the data type of its assignment target. Target name is "". </td></tr>
+<tr> <td colspan=1 rowspan=1 > 418 </td><td colspan=1 rowspan=1 > Use of parameter marker not valid. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 420 </td><td colspan=1 rowspan=1 > The value of a string argument was not acceptable to the 'function-name' function </td></tr>
+<tr> <td colspan=1 rowspan=1 > 438 </td><td colspan=1 rowspan=1 > Application raised error with diagnostic text: text </td></tr>
+<tr> <td colspan=1 rowspan=1 > 440 </td><td colspan=1 rowspan=1 > Routine &1 in &2 not found with specified parameters.A function or procedure with the specified name and compatible arguments was not found.[1] </td></tr>
+<tr> <td colspan=1 rowspan=1 > 482 </td><td colspan=1 rowspan=1 > The procedure returned no locators. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 501 </td><td colspan=1 rowspan=1 > Cursor not open on FETCH. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 502 </td><td colspan=1 rowspan=1 > Opening cursor that is already open. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 503 </td><td colspan=1 rowspan=1 > Updating column needs to be specified. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 504 </td><td colspan=1 rowspan=1 > Cursor name not declared. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 530 </td><td colspan=1 rowspan=1 > Referential integrity preventing the INSERT/UPDATE </td></tr>
+<tr> <td colspan=1 rowspan=1 > 532 </td><td colspan=1 rowspan=1 > Referential integrity (DELETE RESTRICT rule) preventing the DELETE. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 536 </td><td colspan=1 rowspan=1 > Referential integrity (DELETE RESTRICT rule) preventing the DELETE. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 545 </td><td colspan=1 rowspan=1 > Check constraint preventing the INSERT/UPDATE. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 551 </td><td colspan=1 rowspan=1 > Authorization failure. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 554 </td><td colspan=1 rowspan=1 > An authorization ID or a role cannot GRANT a privilege to itself. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 601 </td><td colspan=1 rowspan=1 > You tried to create an object that already exists </td></tr>
+<tr> <td colspan=1 rowspan=1 > 602 </td><td colspan=1 rowspan=1 > Too many columns specified in a create index. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 603 </td><td colspan=1 rowspan=1 > a unique index cannot be created because the table contains rows which are duplicates with respect to the values of the identified columns and periods </td></tr>
+<tr> <td colspan=1 rowspan=1 > 604 </td><td colspan=1 rowspan=1 > a data type definition specifies an invalid length, precision, or scale attribute </td></tr>
+<tr> <td colspan=1 rowspan=1 > 607 </td><td colspan=1 rowspan=1 > operation or option operation is not defined for this object </td></tr>
+<tr> <td colspan=1 rowspan=1 > 610 </td><td colspan=1 rowspan=1 > warning: a create/alter on object has placed object in pending </td></tr>
+<tr> <td colspan=1 rowspan=1 > 611 </td><td colspan=1 rowspan=1 > only lockmax 0 can be specified when the lock size of the tablespace is tablespace or table </td></tr>
+<tr> <td colspan=1 rowspan=1 > 612 </td><td colspan=1 rowspan=1 > identifier is a duplicate name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 613 </td><td colspan=1 rowspan=1 > the primary key or a hash key or a unique constraint is too long or has too many columns and periods </td></tr>
+<tr> <td colspan=1 rowspan=1 > 614 </td><td colspan=1 rowspan=1 > the index cannot be created or altered, or the length of a column cannot be changed because the sum of the internal lengths of the columns for the index is greater than the allowable maximum </td></tr>
+<tr> <td colspan=1 rowspan=1 > 615 </td><td colspan=1 rowspan=1 > operation-type is not allowed on a package in use </td></tr>
+<tr> <td colspan=1 rowspan=1 > 616 </td><td colspan=1 rowspan=1 > obj-type1 obj-name1 cannot be dropped because it is referenced by obj-type2 obj-name2 </td></tr>
+<tr> <td colspan=1 rowspan=1 > 617 </td><td colspan=1 rowspan=1 > a type 1 index is not valid for table </td></tr>
+<tr> <td colspan=1 rowspan=1 > 618 </td><td colspan=1 rowspan=1 > operation operation is not allowed on system databases </td></tr>
+<tr> <td colspan=1 rowspan=1 > 619 </td><td colspan=1 rowspan=1 > operation disallowed because the database is not stopped </td></tr>
+<tr> <td colspan=1 rowspan=1 > 620 </td><td colspan=1 rowspan=1 > keyword keyword in stmt-type statement is not permitted for a space-type space in the database-type database </td></tr>
+<tr> <td colspan=1 rowspan=1 > 621 </td><td colspan=1 rowspan=1 > duplicate dbid dbid was detected and previously assigned to database-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 622 </td><td colspan=1 rowspan=1 > for mixed data is invalid because the mixed data install option is no </td></tr>
+<tr> <td colspan=1 rowspan=1 > 623 </td><td colspan=1 rowspan=1 > cluster is not valid for table-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 624 </td><td colspan=1 rowspan=1 > table table-name already has a primary key or unique constraint with specified columns and periods </td></tr>
+<tr> <td colspan=1 rowspan=1 > 625 </td><td colspan=1 rowspan=1 > table table-name does not have an index to enforce the uniqueness of the primary or unique key </td></tr>
+<tr> <td colspan=1 rowspan=1 > 625 </td><td colspan=1 rowspan=1 > warning: the definition of table has been changed to incomplete </td></tr>
+<tr> <td colspan=1 rowspan=1 > 626 </td><td colspan=1 rowspan=1 > the alter statement is not executable because the page set is not stopped </td></tr>
+<tr> <td colspan=1 rowspan=1 > 627 </td><td colspan=1 rowspan=1 > the alter statement is invalid because the table space or index has user-managed data sets </td></tr>
+<tr> <td colspan=1 rowspan=1 > 628 </td><td colspan=1 rowspan=1 > the clauses are mutually exclusive </td></tr>
+<tr> <td colspan=1 rowspan=1 > 629 </td><td colspan=1 rowspan=1 > set null cannot be specified because foreign key name cannot contain null values </td></tr>
+<tr> <td colspan=1 rowspan=1 > 630 </td><td colspan=1 rowspan=1 > error: the WHERE NOT NULL specification is invalid for type 1 indexes </td></tr>
+<tr> <td colspan=1 rowspan=1 > 631 </td><td colspan=1 rowspan=1 > foreign key name is too long or has too many columns </td></tr>
+<tr> <td colspan=1 rowspan=1 > 632 </td><td colspan=1 rowspan=1 > the table cannot be defined as a dependent of table-name because of DELETE rule restrictions </td></tr>
+<tr> <td colspan=1 rowspan=1 > 633 </td><td colspan=1 rowspan=1 > the DELETE rule must be DELETE-rule </td></tr>
+<tr> <td colspan=1 rowspan=1 > 634 </td><td colspan=1 rowspan=1 > the DELETE rule must not be cascade </td></tr>
+<tr> <td colspan=1 rowspan=1 > 635 </td><td colspan=1 rowspan=1 > the DELETE rules cannot be different or cannot be set null </td></tr>
+<tr> <td colspan=1 rowspan=1 > 636 </td><td colspan=1 rowspan=1 > ranges specified for partition part-num are not valid </td></tr>
+<tr> <td colspan=1 rowspan=1 > 637 </td><td colspan=1 rowspan=1 > duplicate keyword-name keyword or clause </td></tr>
+<tr> <td colspan=1 rowspan=1 > 638 </td><td colspan=1 rowspan=1 > table table-name cannot be created because column definition is missing </td></tr>
+<tr> <td colspan=1 rowspan=1 > 639 </td><td colspan=1 rowspan=1 > a nullable column of a foreign key with a DELETE rule of set null cannot be a column of the key of a partitioned index </td></tr>
+<tr> <td colspan=1 rowspan=1 > 640 </td><td colspan=1 rowspan=1 > locksize row cannot be specified because table in this tablespace has type 1 index </td></tr>
+<tr> <td colspan=1 rowspan=1 > 642 </td><td colspan=1 rowspan=1 > too many columns in unique constraints </td></tr>
+<tr> <td colspan=1 rowspan=1 > 643 </td><td colspan=1 rowspan=1 > a check constraint or the value of an expression for a column of an index exceeds the maximum allowable length key expression </td></tr>
+<tr> <td colspan=1 rowspan=1 > 644 </td><td colspan=1 rowspan=1 > invalid value specified for keyword or clause keyword-or-clause in statement stmt-type </td></tr>
+<tr> <td colspan=1 rowspan=1 > 645 </td><td colspan=1 rowspan=1 > WHERE NOT NULL is ignored because the index key cannot contain null values </td></tr>
+<tr> <td colspan=1 rowspan=1 > 646 </td><td colspan=1 rowspan=1 > table table-name cannot be created in specified table space table-space-name because it already contains a table </td></tr>
+<tr> <td colspan=1 rowspan=1 > 647 </td><td colspan=1 rowspan=1 > bufferpool bp-name for implicit or explicit tablespace or indexspace name has not been activated </td></tr>
+<tr> <td colspan=1 rowspan=1 > 650 </td><td colspan=1 rowspan=1 > the alter statement cannot be executed, reason reason-code copyright 2014 TheAmericanProgrammer.com Unauthorized copying prohibited </td></tr>
+<tr> <td colspan=1 rowspan=1 > 651 </td><td colspan=1 rowspan=1 > table description exceeds maximum size of object descriptor. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 652 </td><td colspan=1 rowspan=1 > violation of installation defined edit or validation procedure proc-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 653 </td><td colspan=1 rowspan=1 > table table-name in partitioned table space tspace-name is not available because its partitioned index has not been created </td></tr>
+<tr> <td colspan=1 rowspan=1 > 655 </td><td colspan=1 rowspan=1 > the create or alter stogroup is invalid because the storage group would have both specific and non-specific volume ids </td></tr>
+<tr> <td colspan=1 rowspan=1 > 658 </td><td colspan=1 rowspan=1 > a object-type cannot be dropped using the statement statement </td></tr>
+<tr> <td colspan=1 rowspan=1 > 660 </td><td colspan=1 rowspan=1 > index index-name cannot be created or altered on partitioned table space tspace-name because key limits are not specified </td></tr>
+<tr> <td colspan=1 rowspan=1 > 661 </td><td colspan=1 rowspan=1 > object-type object-name cannot be created on partitioned table space tspace-name because the number of partition specifications is not equal to the number of partitions of the table space </td></tr>
+<tr> <td colspan=1 rowspan=1 > 662 </td><td colspan=1 rowspan=1 > a partitioned index cannot be created on a table space, or a table space cannot be index-controlled. table space tspace-name, reason reason-code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 663 </td><td colspan=1 rowspan=1 > the number of key limit values is either zero, or greater than the number of columns in the key of index index-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 664 </td><td colspan=1 rowspan=1 > the internal length of the limit-key fields for the partitioned index exceeds the length imposed by the index manager </td></tr>
+<tr> <td colspan=1 rowspan=1 > 665 </td><td colspan=1 rowspan=1 > the partition clause of an alter statement is omitted or invalid </td></tr>
+<tr> <td colspan=1 rowspan=1 > 666 </td><td colspan=1 rowspan=1 > stmt-verb object cannot be executed because function is in progress </td></tr>
+<tr> <td colspan=1 rowspan=1 > 667 </td><td colspan=1 rowspan=1 > the clustering index for a partitioned table space cannot be explicitly dropped </td></tr>
+<tr> <td colspan=1 rowspan=1 > 668 </td><td colspan=1 rowspan=1 > the column cannot be added to the table because the table has an edit procedure defined with row attribute sensitivity </td></tr>
+<tr> <td colspan=1 rowspan=1 > 669 </td><td colspan=1 rowspan=1 > the object cannot be explicitly dropped. reason reason-code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 670 </td><td colspan=1 rowspan=1 > the record length of the table exceeds the page size limit </td></tr>
+<tr> <td colspan=1 rowspan=1 > 671 </td><td colspan=1 rowspan=1 > the bufferpool attribute of the table space cannot be altered as specified because it would change the page size of the table space </td></tr>
+<tr> <td colspan=1 rowspan=1 > 672 </td><td colspan=1 rowspan=1 > operation drop not allowed on table table_name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 676 </td><td colspan=1 rowspan=1 > the physical characteristics of the index are incompatible with respect to the specified statement. the statement has failed. reason reason-code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 677 </td><td colspan=1 rowspan=1 > insufficient virtual storage for bufferpool expansion </td></tr>
+<tr> <td colspan=1 rowspan=1 > 678 </td><td colspan=1 rowspan=1 > the constant constant specified for the index limit key must conform to the data type data-type of the corresponding column column-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 679 </td><td colspan=1 rowspan=1 > the object name cannot be created because a drop is pending on the object </td></tr>
+<tr> <td colspan=1 rowspan=1 > 680 </td><td colspan=1 rowspan=1 > too many columns specified for a table, view or table function </td></tr>
+<tr> <td colspan=1 rowspan=1 > 681 </td><td colspan=1 rowspan=1 > column column-name in violation of installation defined field procedure. rt: return-code, rs: reason-code, msg: message-token </td></tr>
+<tr> <td colspan=1 rowspan=1 > 682 </td><td colspan=1 rowspan=1 > field procedure procedure-name could not be loaded </td></tr>
+<tr> <td colspan=1 rowspan=1 > 683 </td><td colspan=1 rowspan=1 > the specification for column, distinct type, function, or procedure data-item contains incompatible clauses </td></tr>
+<tr> <td colspan=1 rowspan=1 > 684 </td><td colspan=1 rowspan=1 > the length of constant list beginning string is too long </td></tr>
+<tr> <td colspan=1 rowspan=1 > 685 </td><td colspan=1 rowspan=1 > invalid field type, column-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 686 </td><td colspan=1 rowspan=1 > column defined with a field procedure can not compare with another column with different field procedure </td></tr>
+<tr> <td colspan=1 rowspan=1 > 687 </td><td colspan=1 rowspan=1 > field types incomparable </td></tr>
+<tr> <td colspan=1 rowspan=1 > 688 </td><td colspan=1 rowspan=1 > incorrect data returned from field procedure, column-name, msgno </td></tr>
+<tr> <td colspan=1 rowspan=1 > 689 </td><td colspan=1 rowspan=1 > too many columns defined for a dependent table </td></tr>
+<tr> <td colspan=1 rowspan=1 > 690 </td><td colspan=1 rowspan=1 > the statement is rejected by data definition control support. reason reason-code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 691 </td><td colspan=1 rowspan=1 > the required registration table table-name does not exist </td></tr>
+<tr> <td colspan=1 rowspan=1 > 692 </td><td colspan=1 rowspan=1 > the required unique index index-name for ddl registration table table-name does not exist </td></tr>
+<tr> <td colspan=1 rowspan=1 > 693 </td><td colspan=1 rowspan=1 > the column column-name in ddl registration table or index name is not defined properly </td></tr>
+<tr> <td colspan=1 rowspan=1 > 694 </td><td colspan=1 rowspan=1 > the schema statement cannot be executed because a drop is pending on the ddl registration table table-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 694 </td><td colspan=1 rowspan=1 > the ddl statement cannot be executed because a drop is pending on the ddl registration table </td></tr>
+<tr> <td colspan=1 rowspan=1 > 695 </td><td colspan=1 rowspan=1 > invalid value seclabel specified for security label column of table table-name </td></tr>
+<tr> <td colspan=1 rowspan=1 > 696 </td><td colspan=1 rowspan=1 > the definition of trigger trigger-name includes an invalid use of correlation name or transition table name name. reason code=reason-code </td></tr>
+<tr> <td colspan=1 rowspan=1 > 697 </td><td colspan=1 rowspan=1 > old or new correlation names are not allowed in a trigger defined with the for each statement clause. old_table or new_table names are not allowed in a trigger with the before clause. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 747 </td><td colspan=1 rowspan=1 > The table is not available. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 803 </td><td colspan=1 rowspan=1 > Duplicate key on insert or update. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 804 </td><td colspan=1 rowspan=1 > Error in input parameters for the SQL statement. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 805 </td><td colspan=1 rowspan=1 > DBRM or package not found in plan. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 811 </td><td colspan=1 rowspan=1 > More than one row retrieved in SELECT INTO. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 818 </td><td colspan=1 rowspan=1 > Plan and program: timestamp mismatch. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 904 </td><td colspan=1 rowspan=1 > Unavailable resource. Someone else is locking your data. </td></tr>
+<tr> <td class="highlighted"  colspan=1 rowspan=1 > 911 </td><td class="highlighted"  colspan=1 rowspan=1 > Deadlock or timeout. Rollback has been done. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 913 </td><td colspan=1 rowspan=1 > Deadlock or timeout. No rollback. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 922 </td><td colspan=1 rowspan=1 > Authorization needed. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 924 </td><td colspan=1 rowspan=1 > DB2 Connection internal error. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 927 </td><td colspan=1 rowspan=1 > The language interface was called but no connection had been made. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 998 </td><td colspan=1 rowspan=1 > Error occurred during transaction or heuristic processing. </td></tr>
+<tr> <td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > 7008 </td><td colspan=1 rowspan=1 > The object that is specified is not valid for the requested operation. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 10330 </td><td colspan=1 rowspan=1 > Permission denied to change database. Contact system administrator. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 30090 </td><td colspan=1 rowspan=1 > Remote operation invalid for application execution environment. </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. In DB2 SQL return codes -911 means that a timeout has occurred with a rollback. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

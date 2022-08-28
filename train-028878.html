@@ -1,0 +1,31 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>Open Graphics Project</h2><br> <b>Section Title</b>: Versioning schema <br><b>Table Section Text</b>: Versioning schema for OGD1 will go like this: {Root Number} – {Video Memory}{Video Output Interfaces}{Special Options e.g.: A1 OGA firmware installed} <br> <table>
+<tr> <th colspan=1 rowspan=1 > Field </th><th colspan=1 rowspan=1 > Example Value </th><th colspan=1 rowspan=1 > Example Description </th></tr>
+<tr> <td colspan=1 rowspan=1 > Root number </td><td colspan=1 rowspan=1 > OGD1P- </td><td colspan=1 rowspan=1 > OGD1 board with PCI Bus </td></tr>
+<tr> <td colspan=1 rowspan=1 > Video memory </td><td colspan=1 rowspan=1 > 256 </td><td class="highlighted"  colspan=1 rowspan=1 > 256 MiB </td></tr>
+<tr> <td colspan=3 rowspan=1 > Video outputs, in order, skip any not installed </td></tr>
+<tr> <td colspan=1 rowspan=1 > First interface </td><td colspan=1 rowspan=1 > D </td><td colspan=1 rowspan=1 > Dual-link DVI </td></tr>
+<tr> <td colspan=1 rowspan=1 > Second interface </td><td colspan=1 rowspan=1 > D </td><td colspan=1 rowspan=1 > Dual-link DVI </td></tr>
+<tr> <td colspan=1 rowspan=1 > Third interface </td><td colspan=1 rowspan=1 > A </td><td colspan=1 rowspan=1 > Analog video, 75 ohm, VGA compatible </td></tr>
+<tr> <td colspan=1 rowspan=1 > Fourth interface </td><td colspan=1 rowspan=1 > V </td><td colspan=1 rowspan=1 > TV video </td></tr>
+<tr> <td colspan=3 rowspan=1 > Special options, in alphanumeric order, each preceded by a dash </td></tr>
+<tr> <td colspan=1 rowspan=1 > Factory firmware-RTL </td><td colspan=1 rowspan=1 > A1 </td><td colspan=1 rowspan=1 > OGA1 Firmware </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. Open Graphics Project has 256 MiB. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

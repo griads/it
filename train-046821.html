@@ -1,0 +1,37 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>ANTIC</h2><br> <b>Section Title</b>: Registers <br><b>Table Section Text</b>: The Atari 8-bit computers and the Atari 5200 console map the ANTIC chip to the $D4xxₕₑₓ page. ANTIC provides 15 Read/Write registers controlling Playfield display parameters, DMA for Player/Missile graphics, fine scrolling, light pen input, and interrupts. <br> <table>
+<tr> <th colspan=1 rowspan=1 > Name </th><th colspan=1 rowspan=1 > Description </th><th colspan=1 rowspan=1 > Read/Write </th><th colspan=1 rowspan=1 > Hex Addr </th><th colspan=1 rowspan=1 > Dec Addr </th><th colspan=1 rowspan=1 > Shadow Name </th><th colspan=1 rowspan=1 > Shadow Hex Addr </th><th colspan=1 rowspan=1 > Shadow Dec Addr </th></tr>
+<tr> <td colspan=1 rowspan=1 > DMACTL </td><td colspan=1 rowspan=1 > Direct Memory Access Control </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D400 </td><td colspan=1 rowspan=1 > 54272 </td><td colspan=1 rowspan=1 > SDMCTL </td><td colspan=1 rowspan=1 > $022F </td><td colspan=1 rowspan=1 > 559 </td></tr>
+<tr> <td colspan=1 rowspan=1 > CHACTL </td><td colspan=1 rowspan=1 > Character Control </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D401 </td><td colspan=1 rowspan=1 > 54273 </td><td colspan=1 rowspan=1 > CHART </td><td colspan=1 rowspan=1 > $02F3 </td><td colspan=1 rowspan=1 > 755 </td></tr>
+<tr> <td colspan=1 rowspan=1 > DLISTL </td><td colspan=1 rowspan=1 > Display List Pointer (low byte) </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D402 </td><td colspan=1 rowspan=1 > 54274 </td><td colspan=1 rowspan=1 > SDLSTL </td><td colspan=1 rowspan=1 > $0230 </td><td colspan=1 rowspan=1 > 560 </td></tr>
+<tr> <td colspan=1 rowspan=1 > DLISTH </td><td colspan=1 rowspan=1 > Display List Pointer (high byte) </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D403 </td><td colspan=1 rowspan=1 > 54275 </td><td colspan=1 rowspan=1 > SDLSTH </td><td colspan=1 rowspan=1 > $0231 </td><td colspan=1 rowspan=1 > 561 </td></tr>
+<tr> <td colspan=1 rowspan=1 > HSCROL </td><td colspan=1 rowspan=1 > Horizontal Fine Scroll </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D404 </td><td colspan=1 rowspan=1 > 54276 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > VSCROL </td><td colspan=1 rowspan=1 > Vertical Fine Scroll </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D405 </td><td colspan=1 rowspan=1 > 54277 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > PMBASE </td><td colspan=1 rowspan=1 > Player/Missile Base Address </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D407 </td><td colspan=1 rowspan=1 > 54279 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > CHBASE </td><td colspan=1 rowspan=1 > Character Set Base Address </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D409 </td><td colspan=1 rowspan=1 > 54281 </td><td colspan=1 rowspan=1 > CHBAS </td><td colspan=1 rowspan=1 > $02F4 </td><td colspan=1 rowspan=1 > 756 </td></tr>
+<tr> <td colspan=1 rowspan=1 > WSYNC </td><td colspan=1 rowspan=1 > Wait for Horizontal Sync </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D40A </td><td colspan=1 rowspan=1 > 54282 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > VCOUNT </td><td colspan=1 rowspan=1 > Vertical Line Counter </td><td colspan=1 rowspan=1 > Read </td><td colspan=1 rowspan=1 > $D40B </td><td colspan=1 rowspan=1 > 54283 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > PENH </td><td colspan=1 rowspan=1 > Light Pen Horizontal Position </td><td colspan=1 rowspan=1 > Read </td><td colspan=1 rowspan=1 > $D40C </td><td colspan=1 rowspan=1 > 54284 </td><td colspan=1 rowspan=1 > LPENH </td><td colspan=1 rowspan=1 > $0234 </td><td colspan=1 rowspan=1 > 564 </td></tr>
+<tr> <td colspan=1 rowspan=1 > PENV </td><td class="highlighted"  colspan=1 rowspan=1 > Light Pen Vertical Position </td><td colspan=1 rowspan=1 > Read </td><td colspan=1 rowspan=1 > $D40D </td><td colspan=1 rowspan=1 > 54285 </td><td class="highlighted"  colspan=1 rowspan=1 > LPENV </td><td class="highlighted"  colspan=1 rowspan=1 > $0235 </td><td colspan=1 rowspan=1 > 565 </td></tr>
+<tr> <td colspan=1 rowspan=1 > NMIEN </td><td colspan=1 rowspan=1 > Non-Maskable Interrupt (NMI) Enable </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D40E </td><td colspan=1 rowspan=1 > 54286 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > NMIRES </td><td colspan=1 rowspan=1 > Non-Maskable Interrupt (NMI) Reset </td><td colspan=1 rowspan=1 > Write </td><td colspan=1 rowspan=1 > $D40F </td><td colspan=1 rowspan=1 > 54287 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+<tr> <td colspan=1 rowspan=1 > NMIST </td><td colspan=1 rowspan=1 > Non-Maskable Interrupt (NMI) Status </td><td colspan=1 rowspan=1 > Read </td><td colspan=1 rowspan=1 > $D40F </td><td colspan=1 rowspan=1 > 54287 </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td><td colspan=1 rowspan=1 >  </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. SHADOW: LPENV $0235 Light Pen Vertical Position. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>

@@ -1,0 +1,29 @@
+<!doctype html> <html> <head><style>
+             table { border-collapse: collapse; }
+             th, td {
+               word-wrap: break-word;
+               max-width: 100%;
+               font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+               border-bottom: 1px solid #ddd;
+               padding: 5px;
+               text-align: left;
+             }
+            tr:hover {background: #f4f4f4;}
+            tr:hover .highlighted {background: repeating-linear-gradient(
+                    45deg,
+                    #ffff99,
+                    #ffff99 10px,
+                    #f4f4f4 10px,
+                    #f4f4f4 20px
+                  );}
+           .highlighted { background-color: #ffff99; }
+          </style></head><body><h2>AES3</h2><br> <b>Section Title</b>: Protocol <br><b>Table Section Text</b>: <i> None </i> <br> <table>
+<tr> <th colspan=1 rowspan=1 > Time slot </th><th colspan=1 rowspan=1 > Name </th><th colspan=1 rowspan=1 > Description </th></tr>
+<tr> <td colspan=1 rowspan=1 > 0–3 </td><td colspan=1 rowspan=1 > Preamble </td><td colspan=1 rowspan=1 > A synchronisation preamble (biphase mark code violation) for audio blocks, frames, and subframes. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 4–7 </td><td colspan=1 rowspan=1 > Auxiliary sample (optional) </td><td colspan=1 rowspan=1 > A low-quality auxiliary channel used as specified in the channel status word, notably for producer talkback or recording studio-to-studio communication. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 8–27, or 4–27 </td><td colspan=1 rowspan=1 > Audio sample </td><td colspan=1 rowspan=1 > One sample stored with most significant bit (MSB) last. If the auxiliary sample is used, bits 4–7 are not included. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 28 </td><td colspan=1 rowspan=1 > Validity (V) </td><td colspan=1 rowspan=1 > Unset if the audio data are correct and suitable for D/A conversion. During the presence of defective samples, the receiving equipment may be instructed to mute its output. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 29 </td><td colspan=1 rowspan=1 > User data (U) </td><td colspan=1 rowspan=1 > Forms a serial data stream for each channel (with 1 bit per frame), with a format specified in the channel status word. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 30 </td><td class="highlighted"  colspan=1 rowspan=1 > Channel status (C) </td><td class="highlighted"  colspan=1 rowspan=1 > Bits from each frame of an audio block are collated giving a 192-bit channel status word. Its structure depends on whether AES3 or S/PDIF is used. </td></tr>
+<tr> <td colspan=1 rowspan=1 > 31 </td><td colspan=1 rowspan=1 > Parity (P) </td><td colspan=1 rowspan=1 > Even parity bit for detection of errors in data transmission. (I.e. bits 4–31 have an even number of ones.) </td></tr>
+</table> <br> <h3>Sentence(s)</h3>1. In the AES3, there is one channel status bit in each frame, making one 192 bit word in each block. <br> <br><br><b>Categories:</b><br><b>Numerical:</b> Uses math skills for writing the sentence. Uses math operations (addition, subtraction, average, etc.), counting numbers, frequency of items, etc.<br> <b>Commonsense:</b> Uses commonsene knowledge about situations humans encounter in everyday life – physical objects, word meanings, social or physical domains, peoples' intentions, etc.<br> <b>Temporal:</b> When concepts related to time and temporal aspects are required for writing the sentence. Duration, ordering, typical time of events, time differences between events.<br> <b>Table:</b> Writing the sentence requires knowledge from the table except: the highlighted cells, row and column headers, table titles, section titles, section texts.<br> <b>Out of Table:</b> Writing the sentence requires external knowledge that is not present in the table nor common sense. Knowledge about some specific domain comes under this category. </body></html>
